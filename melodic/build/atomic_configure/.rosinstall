@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/hans/ROS-wheeled-robot-master/melodic/devel/setup.sh
