@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/devel/setup.sh
