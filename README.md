@@ -6,3 +6,5 @@ There are two workspaces for this project (kinetic and melodic) because our grou
 - melodic: Y.H. Sun
 
 2020.5.10 Kinetic and Melodic versions are all set up
+
+2020.5.11 diff_drive is applicable now in gazebo
