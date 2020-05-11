@@ -4,9 +4,55 @@
      Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <!--Model constructed by yu zhuotong 2020.5.10-->
+
+<!--mass property-->
   <xacro:property name = "wheel_mass" value = "0.5"/>
   <xacro:property name = "lidar_mass" value = "2"/>
   <xacro:property name = "kinect_mass" value = "0.5"/>
+
+<!--simplified wheel collision model-->
+  <xacro:macro name = "wheel_shape">
+    <cylinder radius="${0.14/2}" length="0.01"/>
+  </xacro:macro>
+
+<!--add physical properties and transmissions for wheels-->
+  <xacro:macro name = "wheel_property" params="prefix suffix">
+  <!--physical properties for gazebo simulator-->
+    <gazebo reference="${prefix}_${suffix}_wheel">
+      <mu1 value="200.0"/>
+      <mu2 value="100.0"/>
+      <kp value="10000000.0" />
+      <kd value="1.0" />
+      <material>Gazebo/Grey</material>
+    </gazebo>
+
+  <!--transmissions-->
+    <transmission name="${prefix}_${suffix}_wheel_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <actuator name="${prefix}_${suffix}_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+      <joint name="${prefix}_${suffix}_joint">
+        <hardwareInterface>VelocityJointInterface</hardwareInterface>
+      </joint>
+    </transmission>
+  </xacro:macro>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--the main part begins here                                             -->
   <link
     name="base_link">
     <inertial>
@@ -263,6 +309,12 @@
     <axis
       xyz="0 0 1" />
   </joint>
+
+<xacro:wheel_property prefix = "back" suffix ="left"/>
+<xacro:wheel_property prefix = "back" suffix ="right"/>
+<xacro:wheel_property prefix = "front" suffix ="left"/>
+<xacro:wheel_property prefix = "front" suffix ="right"/>
+
   <link
     name="lidar_link">
     <inertial>
