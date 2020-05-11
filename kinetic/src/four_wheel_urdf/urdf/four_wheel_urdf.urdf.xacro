@@ -12,7 +12,7 @@
 
 <!--simplified wheel collision model-->
   <xacro:macro name = "wheel_shape">
-    <cylinder radius="${0.14/2}" length="0.01"/>
+    <cylinder radius="${0.10/2}" length="0.06"/>
   </xacro:macro>
 
 <!--add physical properties and transmissions for wheels-->
@@ -41,18 +41,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-  <!--the main part begins here                                             -->
+  <!--the main part begins here -->
   <link
     name="base_link">
     <inertial>
@@ -132,8 +121,11 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
+      <xacro:wheel_shape/>
+       <!--
         <mesh
           filename="package://four_wheel_urdf/meshes/front_left_wheel.STL" />
+          -->
       </geometry>
     </collision>
   </link>
@@ -185,8 +177,11 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
+        <xacro:wheel_shape/>
+       <!--
         <mesh
           filename="package://four_wheel_urdf/meshes/front_right_wheel.STL" />
+          -->
       </geometry>
     </collision>
   </link>
@@ -238,8 +233,11 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
+      <xacro:wheel_shape/>
+       <!--
         <mesh
           filename="package://four_wheel_urdf/meshes/back_left_wheel.STL" />
+          -->
       </geometry>
     </collision>
   </link>
@@ -291,8 +289,11 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
+      <xacro:wheel_shape/>
+       <!--
         <mesh
           filename="package://four_wheel_urdf/meshes/back_right_wheel.STL" />
+          -->
       </geometry>
     </collision>
   </link>
