@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="totalAssem">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0639207417509891 0.189639372145732 0.00172322047500082"
+        rpy="0 0 0" />
+      <mass
+        value="6.98454777737973" />
+      <inertia
+        ixx="0.0314291732947155"
+        ixy="1.28219057098529E-05"
+        ixz="-3.60254831869268E-07"
+        iyy="0.0376569690234439"
+        iyz="-2.20865308170281E-06"
+        izz="0.029665746314529" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://model_visualization/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://model_visualization/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="front_left">
+    <inertial>
+      <origin
+        xyz="2.59347901092333E-07 -1.06081553569171E-07 -0.0173966059410684"
+        rpy="0 0 0" />
+      <mass
+        value="0.186539970489831" />
+      <inertia
+        ixx="0.000153302092922362"
+        ixy="3.15690566204019E-11"
+        ixz="-8.74689995593612E-10"
+        iyy="0.000153302050961775"
+        iyz="-1.00904632577033E-10"
+        izz="0.000279378682392963" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://model_visualization/meshes/front_left.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.8 0.803921568627451 0.8 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://model_visualization/meshes/front_left.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="front_left_motor"
+    type="continuous">
+    <origin
+      xyz="0.137625631329235 0.15756248166201 -0.0123743686707646"
+      rpy="1.5707963267949 -1.09222488301814 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="front_left" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="front_right">
+    <inertial>
+      <origin
+        xyz="2.59349533234671E-07 -1.05805539746262E-07 0.0173971507290964"
+        rpy="0 0 0" />
+      <mass
+        value="0.18653997068198" />
+      <inertia
+        ixx="0.000153302490492137"
+        ixy="-1.30045833863537E-10"
+        ixz="-7.39875321573981E-10"
+        iyy="0.000153302370766279"
+        iyz="6.64727474891899E-11"
+        izz="0.000279379139317629" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://model_visualization/meshes/front_right.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.8 0.803921568627451 0.8 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://model_visualization/meshes/front_right.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="front_right_motor"
+    type="continuous">
+    <origin
+      xyz="0.137625631329235 -0.15756248166201 -0.0123743686707646"
+      rpy="-1.57079632679489 -1.54165987688924 3.14159265358979" />
+    <parent
+      link="base_link" />
+    <child
+      link="front_right" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="back_left">
+    <inertial>
+      <origin
+        xyz="2.59254475457049E-07 -1.06128204349631E-07 -0.0173966059322994"
+        rpy="0 0 0" />
+      <mass
+        value="0.186539970674412" />
+      <inertia
+        ixx="0.000153302490497661"
+        ixy="-1.29825169772814E-10"
+        ixz="-7.40101026565764E-10"
+        iyy="0.000153302370516275"
+        iyz="6.63362847845969E-11"
+        izz="0.000279379139155462" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://model_visualization/meshes/back_left.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.8 0.803921568627451 0.8 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://model_visualization/meshes/back_left.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="back_left_motor"
+    type="continuous">
+    <origin
+      xyz="-0.137625631329235 0.15756248166201 -0.0123743686707646"
+      rpy="1.5707963267949 0.972888437481976 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="back_left" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="back_right">
+    <inertial>
+      <origin
+        xyz="2.59034111979584E-07 -1.05729380417419E-07 0.0173971507538941"
+        rpy="0 0 0" />
+      <mass
+        value="0.186539971470881" />
+      <inertia
+        ixx="0.000153302490504048"
+        ixy="-1.30083259252405E-10"
+        ixz="-7.3989108491108E-10"
+        iyy="0.000153302370276612"
+        iyz="6.62814445903941E-11"
+        izz="0.000279379138856014" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://model_visualization/meshes/back_right.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.8 0.803921568627451 0.8 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://model_visualization/meshes/back_right.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="back_right_motor"
+    type="continuous">
+    <origin
+      xyz="-0.137625631329235 -0.15756248166201 -0.0123743686707645"
+      rpy="1.5707963267949 -1.50975652463866 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="back_right" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+</robot>

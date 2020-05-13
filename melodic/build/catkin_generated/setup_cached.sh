@@ -8,7 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/hans/ROS-wheeled-robot-master/melodic/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/hans/catkin_ws/devel/lib:/opt/ros/melodic/lib:/home/hans/.mujoco/mujoco200/bin"
+export LD_LIBRARY_PATH="/home/hans/ROS-wheeled-robot-master/melodic/devel/lib:/home/hans/catkin_ws/devel/lib:/opt/ros/melodic/lib:/home/hans/.mujoco/mujoco200/bin"
+export PKG_CONFIG_PATH="/home/hans/ROS-wheeled-robot-master/melodic/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/hans/ROS-wheeled-robot-master/melodic/build"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/hans/ROS-wheeled-robot-master/melodic/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/hans/ROS-wheeled-robot-master/melodic/src:$ROS_PACKAGE_PATH"

@@ -1,0 +1,8 @@
+prefix=/home/hans/ROS-wheeled-robot-master/melodic/devel
+
+Name: sound_control
+Description: Description of sound_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/hans/ROS-wheeled-robot-master/melodic/devel/lib 
+Requires: 

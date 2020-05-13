@@ -1,0 +1,8 @@
+prefix=/home/hans/ROS-wheeled-robot-master/melodic/devel
+
+Name: totalAssem
+Description: Description of totalAssem
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/hans/ROS-wheeled-robot-master/melodic/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/hans/ROS-wheeled-robot-master/melodic/devel
+
+Name: model_visualization
+Description: Description of model_visualization
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/hans/ROS-wheeled-robot-master/melodic/devel/lib 
+Requires: 
