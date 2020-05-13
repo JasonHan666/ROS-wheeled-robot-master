@@ -6,4 +6,5 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("sound_control")
+subdirs("four_wheel_urdf")
 subdirs("model_visualization")

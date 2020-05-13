@@ -1,0 +1,8 @@
+prefix=/home/hans/ROS-wheeled-robot-master/melodic/devel
+
+Name: four_wheel_urdf
+Description: Description of four_wheel_urdf
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/hans/ROS-wheeled-robot-master/melodic/devel/lib 
+Requires: 
