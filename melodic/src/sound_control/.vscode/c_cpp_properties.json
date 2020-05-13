@@ -1,28 +1,15 @@
 {
     "configurations": [
         {
-            "browse": {
-                "databaseFilename": "",
-                "limitSymbolsToIncludedHeaders": true
-            },
+            "name": "Linux",
             "includePath": [
-                "/opt/ros/melodic/include/**",
-                "/home/hans/catkin_ws/src/beginner_tutorials/include/**",
-                "/home/hans/catkin_ws/src/r2d2/include/**",
-                "/home/hans/catkin_ws/src/robot_setup_tf/include/**",
-                "/home/hans/catkin_ws/src/using_markers/include/**",
-                "/usr/include/**",
-                "${workspaceFolder}/include",
-                "/opt/ros/melodic/include",
-                "${workspaceFolder}/src",
-                "${workspaceFolder}/src",
-                "${workspaceFolder}/src"
+                "${workspaceFolder}/**"
             ],
-            "name": "ROS",
-            "intelliSenseMode": "gcc-x64",
+            "defines": [],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c11",
-            "cppStandard": "c++17"
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
         }
     ],
     "version": 4

@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+sound_control/CMakeFiles/wakeUp.dir/rule:
+	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f CMakeFiles/Makefile2 sound_control/CMakeFiles/wakeUp.dir/rule
+.PHONY : sound_control/CMakeFiles/wakeUp.dir/rule
+
+# Convenience name for target.
+wakeUp: sound_control/CMakeFiles/wakeUp.dir/rule
+
+.PHONY : wakeUp
+
+# fast build rule for target.
+wakeUp/fast:
+	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/wakeUp.dir/build.make sound_control/CMakeFiles/wakeUp.dir/build
+.PHONY : wakeUp/fast
+
+# Convenience name for target.
 sound_control/CMakeFiles/roscpp_generate_messages_py.dir/rule:
 	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f CMakeFiles/Makefile2 sound_control/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : sound_control/CMakeFiles/roscpp_generate_messages_py.dir/rule
@@ -211,21 +226,6 @@ roscpp_generate_messages_lisp: sound_control/CMakeFiles/roscpp_generate_messages
 roscpp_generate_messages_lisp/fast:
 	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make sound_control/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
-
-# Convenience name for target.
-sound_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f CMakeFiles/Makefile2 sound_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : sound_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: sound_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make sound_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 sound_control/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
@@ -363,6 +363,36 @@ std_msgs_generate_messages_nodejs/fast:
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
+sound_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
+	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f CMakeFiles/Makefile2 sound_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+.PHONY : sound_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_cpp: sound_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make sound_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+sound_control/CMakeFiles/command_publisher.dir/rule:
+	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f CMakeFiles/Makefile2 sound_control/CMakeFiles/command_publisher.dir/rule
+.PHONY : sound_control/CMakeFiles/command_publisher.dir/rule
+
+# Convenience name for target.
+command_publisher: sound_control/CMakeFiles/command_publisher.dir/rule
+
+.PHONY : command_publisher
+
+# fast build rule for target.
+command_publisher/fast:
+	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/build
+.PHONY : command_publisher/fast
+
+# Convenience name for target.
 sound_control/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
 	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f CMakeFiles/Makefile2 sound_control/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : sound_control/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
@@ -392,47 +422,32 @@ std_msgs_generate_messages_py/fast:
 	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/std_msgs_generate_messages_py.dir/build.make sound_control/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
-# Convenience name for target.
-sound_control/CMakeFiles/iat_publisher.dir/rule:
-	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f CMakeFiles/Makefile2 sound_control/CMakeFiles/iat_publisher.dir/rule
-.PHONY : sound_control/CMakeFiles/iat_publisher.dir/rule
+src/command_publisher.o: src/command_publisher.cpp.o
 
-# Convenience name for target.
-iat_publisher: sound_control/CMakeFiles/iat_publisher.dir/rule
-
-.PHONY : iat_publisher
-
-# fast build rule for target.
-iat_publisher/fast:
-	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/iat_publisher.dir/build.make sound_control/CMakeFiles/iat_publisher.dir/build
-.PHONY : iat_publisher/fast
-
-src/iat_publisher.o: src/iat_publisher.cpp.o
-
-.PHONY : src/iat_publisher.o
+.PHONY : src/command_publisher.o
 
 # target to build an object file
-src/iat_publisher.cpp.o:
-	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/iat_publisher.dir/build.make sound_control/CMakeFiles/iat_publisher.dir/src/iat_publisher.cpp.o
-.PHONY : src/iat_publisher.cpp.o
+src/command_publisher.cpp.o:
+	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/src/command_publisher.cpp.o
+.PHONY : src/command_publisher.cpp.o
 
-src/iat_publisher.i: src/iat_publisher.cpp.i
+src/command_publisher.i: src/command_publisher.cpp.i
 
-.PHONY : src/iat_publisher.i
+.PHONY : src/command_publisher.i
 
 # target to preprocess a source file
-src/iat_publisher.cpp.i:
-	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/iat_publisher.dir/build.make sound_control/CMakeFiles/iat_publisher.dir/src/iat_publisher.cpp.i
-.PHONY : src/iat_publisher.cpp.i
+src/command_publisher.cpp.i:
+	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/src/command_publisher.cpp.i
+.PHONY : src/command_publisher.cpp.i
 
-src/iat_publisher.s: src/iat_publisher.cpp.s
+src/command_publisher.s: src/command_publisher.cpp.s
 
-.PHONY : src/iat_publisher.s
+.PHONY : src/command_publisher.s
 
 # target to generate assembly for a file
-src/iat_publisher.cpp.s:
-	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/iat_publisher.dir/build.make sound_control/CMakeFiles/iat_publisher.dir/src/iat_publisher.cpp.s
-.PHONY : src/iat_publisher.cpp.s
+src/command_publisher.cpp.s:
+	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/src/command_publisher.cpp.s
+.PHONY : src/command_publisher.cpp.s
 
 src/linuxrec.o: src/linuxrec.c.o
 
@@ -440,7 +455,7 @@ src/linuxrec.o: src/linuxrec.c.o
 
 # target to build an object file
 src/linuxrec.c.o:
-	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/iat_publisher.dir/build.make sound_control/CMakeFiles/iat_publisher.dir/src/linuxrec.c.o
+	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/src/linuxrec.c.o
 .PHONY : src/linuxrec.c.o
 
 src/linuxrec.i: src/linuxrec.c.i
@@ -449,7 +464,7 @@ src/linuxrec.i: src/linuxrec.c.i
 
 # target to preprocess a source file
 src/linuxrec.c.i:
-	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/iat_publisher.dir/build.make sound_control/CMakeFiles/iat_publisher.dir/src/linuxrec.c.i
+	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/src/linuxrec.c.i
 .PHONY : src/linuxrec.c.i
 
 src/linuxrec.s: src/linuxrec.c.s
@@ -458,7 +473,7 @@ src/linuxrec.s: src/linuxrec.c.s
 
 # target to generate assembly for a file
 src/linuxrec.c.s:
-	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/iat_publisher.dir/build.make sound_control/CMakeFiles/iat_publisher.dir/src/linuxrec.c.s
+	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/src/linuxrec.c.s
 .PHONY : src/linuxrec.c.s
 
 src/speech_recognizer.o: src/speech_recognizer.c.o
@@ -467,7 +482,7 @@ src/speech_recognizer.o: src/speech_recognizer.c.o
 
 # target to build an object file
 src/speech_recognizer.c.o:
-	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/iat_publisher.dir/build.make sound_control/CMakeFiles/iat_publisher.dir/src/speech_recognizer.c.o
+	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/src/speech_recognizer.c.o
 .PHONY : src/speech_recognizer.c.o
 
 src/speech_recognizer.i: src/speech_recognizer.c.i
@@ -476,7 +491,7 @@ src/speech_recognizer.i: src/speech_recognizer.c.i
 
 # target to preprocess a source file
 src/speech_recognizer.c.i:
-	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/iat_publisher.dir/build.make sound_control/CMakeFiles/iat_publisher.dir/src/speech_recognizer.c.i
+	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/src/speech_recognizer.c.i
 .PHONY : src/speech_recognizer.c.i
 
 src/speech_recognizer.s: src/speech_recognizer.c.s
@@ -485,8 +500,35 @@ src/speech_recognizer.s: src/speech_recognizer.c.s
 
 # target to generate assembly for a file
 src/speech_recognizer.c.s:
-	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/iat_publisher.dir/build.make sound_control/CMakeFiles/iat_publisher.dir/src/speech_recognizer.c.s
+	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/src/speech_recognizer.c.s
 .PHONY : src/speech_recognizer.c.s
+
+src/wakeUp.o: src/wakeUp.cpp.o
+
+.PHONY : src/wakeUp.o
+
+# target to build an object file
+src/wakeUp.cpp.o:
+	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/wakeUp.dir/build.make sound_control/CMakeFiles/wakeUp.dir/src/wakeUp.cpp.o
+.PHONY : src/wakeUp.cpp.o
+
+src/wakeUp.i: src/wakeUp.cpp.i
+
+.PHONY : src/wakeUp.i
+
+# target to preprocess a source file
+src/wakeUp.cpp.i:
+	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/wakeUp.dir/build.make sound_control/CMakeFiles/wakeUp.dir/src/wakeUp.cpp.i
+.PHONY : src/wakeUp.cpp.i
+
+src/wakeUp.s: src/wakeUp.cpp.s
+
+.PHONY : src/wakeUp.s
+
+# target to generate assembly for a file
+src/wakeUp.cpp.s:
+	cd /home/hans/ROS-wheeled-robot-master/melodic/build && $(MAKE) -f sound_control/CMakeFiles/wakeUp.dir/build.make sound_control/CMakeFiles/wakeUp.dir/src/wakeUp.cpp.s
+.PHONY : src/wakeUp.cpp.s
 
 # Help Target
 help:
@@ -498,12 +540,12 @@ help:
 	@echo "... install/local"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... wakeUp"
 	@echo "... list_install_components"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... edit_cache"
 	@echo "... roscpp_generate_messages_lisp"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... install"
@@ -514,18 +556,22 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_nodejs"
+	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... command_publisher"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
-	@echo "... iat_publisher"
-	@echo "... src/iat_publisher.o"
-	@echo "... src/iat_publisher.i"
-	@echo "... src/iat_publisher.s"
+	@echo "... src/command_publisher.o"
+	@echo "... src/command_publisher.i"
+	@echo "... src/command_publisher.s"
 	@echo "... src/linuxrec.o"
 	@echo "... src/linuxrec.i"
 	@echo "... src/linuxrec.s"
 	@echo "... src/speech_recognizer.o"
 	@echo "... src/speech_recognizer.i"
 	@echo "... src/speech_recognizer.s"
+	@echo "... src/wakeUp.o"
+	@echo "... src/wakeUp.i"
+	@echo "... src/wakeUp.s"
 .PHONY : help
 
 

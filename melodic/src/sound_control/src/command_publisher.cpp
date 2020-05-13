@@ -119,12 +119,10 @@ int main(int argc, char* argv[])
 	ros::Publisher voiceWordsPub = n.advertise<std_msgs::String>("voiceWords", 1000);
 
 	ROS_INFO("Sleeping...");
-	int count = 0;
 
 	while(ros::ok())
 	{
-		// 语音识别唤醒
-		if (wakeupFlag)
+		if(wakeupFlag)
 		{
 			ROS_INFO("Waking up sueecssfully!");
 			int ret = MSP_SUCCESS;
@@ -145,11 +143,6 @@ int main(int argc, char* argv[])
 				printf("MSPLogin failed , Error code %d.\n",ret);
 			}
 
-			// ret = upload_userwords();
-			// if (MSP_SUCCESS != ret)
-			// 	goto exit;	
-			// printf("Userwords uploaded successfully\n");
-
 			ROS_INFO("Demo recognizing the speech from microphone.");
 			ROS_INFO("Speak in 10 seconds.");
 			
@@ -160,8 +153,7 @@ int main(int argc, char* argv[])
 			wakeupFlag = 0;
 			MSPLogout();
 		}
-		
-		// 语音识别完成
+
 		if(resultFlag)
 		{
 			resultFlag = 0;
@@ -172,10 +164,5 @@ int main(int argc, char* argv[])
 		
 		ros::spinOnce();
 		loop_rate.sleep();
-		count++;
 	}
-	
-	exit:
-		MSPLogout(); // Logout...
-		return 0;
 }

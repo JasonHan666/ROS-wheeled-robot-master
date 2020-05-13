@@ -285,6 +285,19 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named wakeUp
+
+# Build rule for target.
+wakeUp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wakeUp
+.PHONY : wakeUp
+
+# fast build rule for target.
+wakeUp/fast:
+	$(MAKE) -f sound_control/CMakeFiles/wakeUp.dir/build.make sound_control/CMakeFiles/wakeUp.dir/build
+.PHONY : wakeUp/fast
+
+#=============================================================================
 # Target rules for targets named roscpp_generate_messages_py
 
 # Build rule for target.
@@ -322,19 +335,6 @@ roscpp_generate_messages_lisp: cmake_check_build_system
 roscpp_generate_messages_lisp/fast:
 	$(MAKE) -f sound_control/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make sound_control/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_cpp
-
-# Build rule for target.
-rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_cpp
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f sound_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make sound_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_lisp
@@ -454,6 +454,32 @@ std_msgs_generate_messages_nodejs/fast:
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_cpp
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_cpp
+.PHONY : rosgraph_msgs_generate_messages_cpp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f sound_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make sound_control/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named command_publisher
+
+# Build rule for target.
+command_publisher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 command_publisher
+.PHONY : command_publisher
+
+# fast build rule for target.
+command_publisher/fast:
+	$(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/build
+.PHONY : command_publisher/fast
+
+#=============================================================================
 # Target rules for targets named roscpp_generate_messages_nodejs
 
 # Build rule for target.
@@ -478,19 +504,6 @@ std_msgs_generate_messages_py: cmake_check_build_system
 std_msgs_generate_messages_py/fast:
 	$(MAKE) -f sound_control/CMakeFiles/std_msgs_generate_messages_py.dir/build.make sound_control/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named iat_publisher
-
-# Build rule for target.
-iat_publisher: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 iat_publisher
-.PHONY : iat_publisher
-
-# fast build rule for target.
-iat_publisher/fast:
-	$(MAKE) -f sound_control/CMakeFiles/iat_publisher.dir/build.make sound_control/CMakeFiles/iat_publisher.dir/build
-.PHONY : iat_publisher/fast
 
 #=============================================================================
 # Target rules for targets named _catkin_empty_exported_target
@@ -527,10 +540,10 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... wakeUp"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... roscpp_generate_messages_lisp"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_eus"
@@ -540,9 +553,10 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_nodejs"
+	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... command_publisher"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
-	@echo "... iat_publisher"
 	@echo "... _catkin_empty_exported_target"
 .PHONY : help
 
