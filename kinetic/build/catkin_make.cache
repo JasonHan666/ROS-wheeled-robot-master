@@ -1,0 +1,2 @@
+four_wheel_urdf
+-DCATKIN_DEVEL_PREFIX=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/devel -DCMAKE_INSTALL_PREFIX=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/install -G Unix Makefiles

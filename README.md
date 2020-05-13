@@ -5,5 +5,5 @@ There are two workspaces for this project (kinetic and melodic) because our grou
 - kinetic: Z.T. Yu, B.W. Shen, S.Q.Li
 - melodic: Y.H. Sun
 
-
 SDK: source file of the sound recognizer
+

@@ -1,0 +1,8 @@
+prefix=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/install
+
+Name: four_wheel_urdf
+Description: Description of four_wheel_urdf
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
