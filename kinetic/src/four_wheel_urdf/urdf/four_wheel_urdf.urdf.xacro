@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="four_wheel_urdf">
+
 <!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
      Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
@@ -334,11 +335,11 @@
     </inertial>
     <visual>
       <origin
-        xyz="0 0 0"
+        xyz="-0.17 0 0"
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://four_wheel_urdf/meshes/lidar_link.STL" />
+          filename="package://four_wheel_urdf/meshes/hokuyo.dae" />
       </geometry>
       <material
         name="">
@@ -362,8 +363,8 @@
     name="lidar_joint"
     type="fixed">
     <origin
-      xyz="0.10636719253573 0 0.084"
-      rpy="1.5707963267949 0 1.5707963267949" />
+      xyz="0.34236719253573 0 0.118"
+      rpy="0 0 0" />
     <parent
       link="base_link" />
     <child
@@ -371,6 +372,49 @@
     <axis
       xyz="0 0 0" />
   </joint>
+
+ <!-- hokuyo -->
+  <gazebo reference="lidar_link">
+    <sensor type="ray" name="head_hokuyo_sensor">
+      <pose>0 0 0 0 0 0</pose>
+      <visualize>false</visualize>
+      <update_rate>40</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>720</samples>
+            <resolution>1</resolution>
+            <min_angle>-2.35619</min_angle>
+            <max_angle>2.35619</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.10</min>
+          <max>30</max>
+          <resolution>0.01</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <!-- Noise parameters based on published spec for Hokuyo laser
+               achieving "+-30mm" accuracy at range < 10m.  A mean of 0.0m and
+               stddev of 0.01m will put 99.7% of samples within 0.03m of the true
+               reading. -->
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
+      <plugin name="gazebo_ros_head_hokuyo_controller" filename="libgazebo_ros_laser.so">
+        <topicName>scan</topicName>
+        <frameName>lidar_link</frameName>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+
+
+
+
+
   <link
     name="kinect_link">
     <inertial>
