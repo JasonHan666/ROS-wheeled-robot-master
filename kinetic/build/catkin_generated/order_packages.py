@@ -2,4 +2,4 @@
 source_root_dir = "/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/home/seedfull/catkin_ws/devel;/opt/ros/kinetic".split(';') if "/home/seedfull/catkin_ws/devel;/opt/ros/kinetic" != "" else []
+underlay_workspaces = "/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/devel;/home/seedfull/catkin_ws/devel;/opt/ros/kinetic".split(';') if "/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/devel;/home/seedfull/catkin_ws/devel;/opt/ros/kinetic" != "" else []

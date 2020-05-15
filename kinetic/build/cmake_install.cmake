@@ -126,6 +126,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/gtest/cmake_install.cmake")
+  include("/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/sound_control/cmake_install.cmake")
   include("/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/four_wheel_urdf/cmake_install.cmake")
 
 endif()

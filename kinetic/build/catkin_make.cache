@@ -1,2 +1,2 @@
-four_wheel_urdf
+four_wheel_urdf:sound_control
 -DCATKIN_DEVEL_PREFIX=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/devel -DCMAKE_INSTALL_PREFIX=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/install -G Unix Makefiles
