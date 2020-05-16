@@ -8,7 +8,7 @@
 
 <!--mass property-->
   <xacro:property name = "wheel_mass" value = "0.6"/>
-  <xacro:property name = "lidar_mass" value = "2"/>
+  <xacro:property name = "lidar_mass" value = "0.8"/>
   <xacro:property name = "kinect_mass" value = "0.4"/>
 
 <!--simplified wheel collision model-->
@@ -461,7 +461,7 @@
     name="kinect_joint"
     type="fixed">
     <origin
-      xyz="0.15 0 0.31"
+      xyz="0.15 0 0.22"
       rpy="3.14159265358979 0 1.5707963267949" />
     <parent
       link="base_link" />
@@ -477,7 +477,7 @@
         xyz="0.000461726517500066 5.2625477320288E-05 0.0180385455431908"
         rpy="0 0 0" />
       <mass
-        value="0.176384011821692" />
+        value="1.176384011821692" />
       <inertia
         ixx="6.51045221494184E-05"
         ixy="3.16323813848326E-07"
@@ -532,7 +532,7 @@
         xyz="-0.0187299099866179 0.0128318998345537 -0.00696970391864018"
         rpy="0 0 0" />
       <mass
-        value="0.0275146541367252" />
+        value="0.5275146541367252" />
       <inertia
         ixx="3.2123731049697E-06"
         ixy="-3.79930759145132E-08"
