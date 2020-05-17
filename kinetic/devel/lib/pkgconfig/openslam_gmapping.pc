@@ -1,0 +1,8 @@
+prefix=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/devel
+
+Name: openslam_gmapping
+Description: Description of openslam_gmapping
+Version: 0.2.1
+Cflags: -I/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/src/openslam_gmapping/include
+Libs: -L${prefix}/lib -lutils -lsensor_base -lsensor_odometry -lsensor_range -llog -lconfigfile -lscanmatcher -lgridfastslam
+Requires: 

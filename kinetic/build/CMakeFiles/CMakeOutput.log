@@ -580,3 +580,81 @@ Linking C executable cmTC_5fde6
 make[1]: Leaving directory '/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp'
 
 
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa425/fast"
+make[1]: Entering directory '/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_aa425.dir/build.make CMakeFiles/cmTC_aa425.dir/build
+make[2]: Entering directory '/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa425.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_aa425.dir/CheckIncludeFile.c.o   -c /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_aa425
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa425.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_aa425.dir/CheckIncludeFile.c.o  -o cmTC_aa425 -rdynamic 
+make[2]: Leaving directory '/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the drand48 exist passed with the following output:
+Change Dir: /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6785/fast"
+make[1]: Entering directory '/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e6785.dir/build.make CMakeFiles/cmTC_e6785.dir/build
+make[2]: Entering directory '/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6785.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_e6785.dir/CheckSymbolExists.c.o   -c /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e6785
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6785.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e6785.dir/CheckSymbolExists.c.o  -o cmTC_e6785 -rdynamic 
+make[2]: Leaving directory '/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp'
+
+File /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef drand48
+  return ((int*)(&drand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30e95/fast"
+make[1]: Entering directory '/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_30e95.dir/build.make CMakeFiles/cmTC_30e95.dir/build
+make[2]: Entering directory '/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30e95.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_30e95.dir/CheckIncludeFile.c.o   -c /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_30e95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30e95.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_30e95.dir/CheckIncludeFile.c.o  -o cmTC_30e95 -rdynamic 
+make[2]: Leaving directory '/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file FL/Fl.H exists passed with the following output:
+Change Dir: /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f750/fast"
+make[1]: Entering directory '/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8f750.dir/build.make CMakeFiles/cmTC_8f750.dir/build
+make[2]: Entering directory '/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8f750.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_8f750.dir/CheckIncludeFile.cxx.o -c /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_8f750
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f750.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_8f750.dir/CheckIncludeFile.cxx.o  -o cmTC_8f750 -rdynamic 
+make[2]: Leaving directory '/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles/CMakeTmp'
+
+

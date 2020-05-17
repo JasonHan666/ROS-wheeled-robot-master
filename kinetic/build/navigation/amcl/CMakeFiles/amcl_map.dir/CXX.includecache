@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/src/navigation/amcl/include/amcl/map/map.h
+stdint.h
+-
+
+/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/src/navigation/amcl/src/amcl/map/map_cspace.cpp
+queue
+-
+math.h
+-
+stdlib.h
+-
+string.h
+-
+amcl/map/map.h
+/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/src/navigation/amcl/src/amcl/map/amcl/map/map.h
+

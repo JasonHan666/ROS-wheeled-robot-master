@@ -1,0 +1,8 @@
+prefix=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/devel
+
+Name: voxel_grid
+Description: Description of voxel_grid
+Version: 1.16.6
+Cflags: -I/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/src/navigation/voxel_grid/include
+Libs: -L${prefix}/lib -lvoxel_grid
+Requires: roscpp

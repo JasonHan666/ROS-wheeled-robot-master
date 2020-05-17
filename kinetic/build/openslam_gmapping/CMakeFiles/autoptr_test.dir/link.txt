@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/autoptr_test.dir/utils/autoptr_test.cpp.o  -o /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/devel/lib/openslam_gmapping/autoptr_test -rdynamic 

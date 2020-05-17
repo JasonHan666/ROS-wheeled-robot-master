@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/src/openslam_gmapping/include/gmapping/utils/autoptr.h
+assert.h
+-
+
+/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/src/openslam_gmapping/utils/autoptr_test.cpp
+iostream
+-
+gmapping/utils/autoptr.h
+/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/src/openslam_gmapping/utils/gmapping/utils/autoptr.h
+

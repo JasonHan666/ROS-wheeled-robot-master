@@ -20,8 +20,8 @@
   <xacro:macro name = "wheel_property" params="prefix suffix">
   <!--physical properties for gazebo simulator-->
     <gazebo reference="${prefix}_${suffix}_wheel">
-      <mu1 value="200.0"/>
-      <mu2 value="100.0"/>
+      <mu1 value="10000000"/>
+      <mu2 value="10000000"/>
       <kp value="10000000.0" />
       <kd value="1.0" />
       <material>Gazebo/Grey</material>
