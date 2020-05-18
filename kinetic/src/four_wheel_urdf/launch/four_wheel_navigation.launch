@@ -1,0 +1,34 @@
+<launch>
+
+    <param name="/use_sim_time" value="false" />
+
+    <!-- 加载机器人URDF/Xacro模型 -->
+    <arg name="urdf_file" default="$(find xacro)/xacro --inorder '$(find four_wheel_urdf)/urdf/four_wheel_urdf.urdf.xacro'" />
+
+    <param name="robot_description" command="$(arg urdf_file)" />
+
+    <rosparam command="load"
+            file="$(find four_wheel_urdf)/config/joints.yaml"
+            ns="four_wheel_joint_state_controller" />
+    <rosparam command="load"
+            file="$(find four_wheel_urdf)/config/diffdrive.yaml"
+            ns="four_wheel_diff_drive_controller" />
+
+    <node name="four_wheel_controller_spawner" pkg="controller_manager" type="spawner"
+        args="four_wheel_joint_state_controller
+            four_wheel_diff_drive_controller
+            --shutdown-timeout 3"/>
+
+  <node name="rqt_robot_steering" pkg="rqt_robot_steering" type="rqt_robot_steering">
+    <param name="default_topic" value="/four_wheel_diff_drive_controller/cmd_vel"/>
+  </node>
+
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher">
+        <param name="publish_frequency" type="double" value="20.0" />
+    </node>
+
+</launch>
+
+
+
