@@ -1,4 +1,6 @@
 #	USAGE for Kinetic user
+By Yu Zhuotong
+
 Currently packages in kinetic workspace have implemented arbotiX diff_controllder, diffdrive controller in Gazebo, gmapping for constructing 2D maps for Gazebo world,and navigation in both Rviz and Gazeabo. The navigation toolbox is installed in the 
 src folder of kinetic ws.
   
@@ -43,7 +45,7 @@ The navigation toolbox is also required.
 
 	roslaunch four_wheel_urdf diffdrive.launch
 	roslaunch four_wheel_urdf my_navigation_gazebo.launch
-Tricky thing is, you should go to navigation/move_base/src/move_base.cpp and change the pubshlish topic /cmd_vel into `/four_wheel_diff_drive_controller/cmd_vel` Then catkin_make. Maybe creating 2 different targets can help.
+Tricky thing is, if your move controller subscribes to `/XX/cmd_vel`,not directly `/cmd_vel`, you can go to `navigation/move_base/src/move_base.cpp` and change the pubshlish topic `/cmd_vel` into `/XX/cmd_vel` Then catkin_make. In our case, I make two targets with different names `move_base` and `move_base_four_wheel` pointing to `/cmd_vel` and `four_wheel_diff_controller/cmd_vel` respectively. You don't need to modify.
 
 Still use 2D Nav Goal to specify the pose, but this time the costmap will be updated using the data from lidar.
 
