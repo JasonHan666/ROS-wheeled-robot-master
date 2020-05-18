@@ -43,6 +43,8 @@ The navigation toolbox is also required.
 
 	roslaunch four_wheel_urdf diffdrive.launch
 	roslaunch four_wheel_urdf my_navigation_gazebo.launch
+Tricky thing is, you should go to navigation/move_base/src/move_base.cpp and change the pubshlish topic /cmd_vel into `/four_wheel_diff_drive_controller/cmd_vel` Then catkin_make. Maybe creating 2 different targets can help.
+
 Still use 2D Nav Goal to specify the pose, but this time the costmap will be updated using the data from lidar.
 
 `However, odometr is not accurate so that there are errors in yaw angle.` 
