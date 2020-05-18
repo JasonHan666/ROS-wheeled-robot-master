@@ -40,7 +40,7 @@ https://blog.csdn.net/qq_33662195/article/details/85110154
 	roslaunch four_wheel_urdf my_navigation_rviz.launch 
 If all right, click the "2D Nav Goal" button on top of Rviz and drag in on the map to specify both position and orientation.
 
-## How to navigate in Gazebo (Working, to be improved)
+## How to navigate in Gazebo (To be improved by Shen Bowen)
 The navigation toolbox is also required.
 
 	roslaunch four_wheel_urdf diffdrive.launch
@@ -51,7 +51,10 @@ Still use 2D Nav Goal to specify the pose, but this time the costmap will be upd
 
 `However, odometr is not accurate so that there are errors in yaw angle.` 
 
-## Voice control (In progress)
+## Voice control (In progress, Sun Yinghan)
+
+Capable to recognize 前进 后退 左转 右转, etc. But only available for one trial for in each terminal. Not combined with robot controller.
+ 
 ---
 
 ## About files in launch and config
