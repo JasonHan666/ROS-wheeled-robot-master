@@ -6,7 +6,4 @@
     <rosparam file="$(find four_wheel_urdf)/config/global_costmap_params.yaml" command="load" />
     <rosparam file="$(find four_wheel_urdf)/config/base_local_planner_params.yaml" command="load" />
   </node>
-
-  <param name="controller_frequency" value="10.0"/> 
-  <param name="controller_patiente" value="15.0"/>
 </launch>
