@@ -9,7 +9,13 @@
     <node name="map_server" pkg="map_server" type="map_server" args="$(find four_wheel_urdf)/maps/map6/$(arg map)"/>
 
     <!-- 运行move_base节点 -->
-    <include file="$(find four_wheel_urdf)/launch/my_move_base.launch" />
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+        <rosparam file="$(find four_wheel_urdf)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
+        <rosparam file="$(find four_wheel_urdf)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
+        <rosparam file="$(find four_wheel_urdf)/config/local_costmap_params.yaml" command="load" />
+        <rosparam file="$(find four_wheel_urdf)/config/global_costmap_params.yaml" command="load" />
+        <rosparam file="$(find four_wheel_urdf)/config/base_local_planner_params.yaml" command="load" />
+    </node>
 
     <!-- 运行虚拟定位，兼容AMCL输出 -->
     <node pkg="fake_localization" type="fake_localization" name="fake_localization" output="screen" />

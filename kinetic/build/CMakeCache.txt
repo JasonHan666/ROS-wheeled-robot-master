@@ -612,6 +612,15 @@ move_base_LIB_DEPENDS:STATIC=general;base_local_planner;general;trajectory_plann
 move_base_SOURCE_DIR:STATIC=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/src/navigation/move_base
 
 //Value Computed by CMake
+move_base_four_wheel_BINARY_DIR:STATIC=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/navigation/move_base
+
+//Dependencies for the target
+move_base_four_wheel_LIB_DEPENDS:STATIC=general;base_local_planner;general;trajectory_planner_ros;general;clear_costmap_recovery;general;navfn;general;rotate_recovery;general;costmap_2d;general;layers;general;/opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so;general;/opt/ros/kinetic/lib/liblaser_geometry.so;general;voxel_grid;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/opt/ros/kinetic/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/kinetic/lib/libroslib.so;general;/opt/ros/kinetic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython2.7.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/kinetic/lib/liborocos-kdl.so;general;/opt/ros/kinetic/lib/liborocos-kdl.so.1.3.2;general;/opt/ros/kinetic/lib/libtf2_ros.so;general;/opt/ros/kinetic/lib/libactionlib.so;general;/opt/ros/kinetic/lib/libmessage_filters.so;general;/opt/ros/kinetic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/opt/ros/kinetic/lib/librosconsole.so;general;/opt/ros/kinetic/lib/librosconsole_log4cxx.so;general;/opt/ros/kinetic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/kinetic/lib/libxmlrpcpp.so;general;/opt/ros/kinetic/lib/libtf2.so;general;/opt/ros/kinetic/lib/libroscpp_serialization.so;general;/opt/ros/kinetic/lib/librostime.so;general;/opt/ros/kinetic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;
+
+//Value Computed by CMake
+move_base_four_wheel_SOURCE_DIR:STATIC=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/src/navigation/move_base
+
+//Value Computed by CMake
 move_base_msgs_BINARY_DIR:STATIC=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/navigation_msgs/move_base_msgs
 
 //The directory containing a CMake configuration file for move_base_msgs.
@@ -1061,7 +1070,7 @@ PYTHON_INSTALL_DIR:INTERNAL=lib/python2.7/dist-packages
 SDL_IMAGE_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: SDL_IMAGE_LIBRARY
 SDL_IMAGE_LIBRARY-ADVANCED:INTERNAL=1
-SDL_LIBRARY_TEMP:INTERNAL=/usr/lib/x86_64-linux-gnu/libSDLmain.a;/usr/lib/x86_64-linux-gnu/libSDL.so;-lpthread;-lpthread;-lpthread;-lpthread
+SDL_LIBRARY_TEMP:INTERNAL=/usr/lib/x86_64-linux-gnu/libSDLmain.a;/usr/lib/x86_64-linux-gnu/libSDL.so;-lpthread;-lpthread;-lpthread;-lpthread;-lpthread;-lpthread;-lpthread;-lpthread
 YAMLCPP_CFLAGS:INTERNAL=
 YAMLCPP_CFLAGS_I:INTERNAL=
 YAMLCPP_CFLAGS_OTHER:INTERNAL=
