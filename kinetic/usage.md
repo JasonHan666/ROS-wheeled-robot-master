@@ -22,12 +22,13 @@ Add map in Rviz and then use the steer interface to move the robot around.(Cauti
 When the map in Rviz becomes satisfactory, run the following:
 	
 	rosrun map_server map_saver
-Map files (map.pgm and map.yaml will be stored). The map files are crucial in future navigation tasks.
+Map files (map.pgm and map.yaml will be stored). The map files are crucial in future navigation tasks. Maps are then stored under four_wheel_urdf/maps, be sure you have the correct path in launch files.
 ## How to navigate in Rviz
 This function is implemented following the guide from GU YUE JU. 
 Before we start, the navigation toolbox should be installed.
 
 ### Install navigation toolbox
+Theoretically once you cloned this project the navigation toolbox will be download together the kinetic workspace. You can choose to install on yourself.
 I've tried the apt-get install ros-kinetic-navigation but somehow failed. If you meet the same problem ,
 try install with source code:
 https://blog.csdn.net/qq_33662195/article/details/85110154
@@ -47,4 +48,41 @@ The navigation toolbox is also required.
 Still use 2D Nav Goal to specify the pose, but this time the costmap will be updated using the data from lidar.
 
 `However, odometr is not accurate so that there are errors in yaw angle.` 
-	
+
+## About files in launch and config
+### launch
+`gazebo_new_world.launch` required by diffdrive.launch, help to build up Gazebo world.
+
+`diffdrive.launch` for diffdrive control, which will switch on Rviz and Gazebo and a steering GUI.
+
+`four_wheel_arbotix.launch` for ArbotiX diffdrive,which is only used in Rviz(no physical properties),and switch on nothing. Works in pair with "my_navigation_rviz.launch".
+
+`gmapping_lidar.launch` calls gamapping for map generation base on lidar.
+
+`gmapping_kinect.launch`calls gamapping for map generation base on kinect.
+
+`my_move_base.launch` calls the move_base node and load bunches of parameters for navigation.
+
+`my_navigation_gazebo.launch` calls my_move_base.launch and other navigation nodes to work with Gazebo environment.
+
+`my_navigation_rviz.launch` calls my_move_base.launch and other navigation nodes to work with Rviz with no physics.
+
+`display.launch` `gazebo.launch.bak` created by solidworks Exporter to urdf. No use now.
+
+### config
+`base_local_planner_params.yaml` `costmap_common_params.yaml` `global_costmap_params.yaml` `local_costmap_params.yaml` are parameters for navigation toolbox.
+
+`diffdrive.yaml` and `joints.yaml`  for diffdrive controller
+
+`four_wheel_arbotix.yaml` for ArbotiX diffdrive controller
+
+`nav_config.rviz` config for Rviz in Rviz navigation
+
+`joint_names_four_wheel_urdf.yaml` no use now, just keep it here
+
+
+
+
+
+
+
