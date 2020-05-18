@@ -4,14 +4,14 @@ By Yu Zhuotong
 Currently packages in kinetic workspace have implemented arbotiX diff_controllder, diffdrive controller in Gazebo, gmapping for constructing 2D maps for Gazebo world,and navigation in both Rviz and Gazeabo. The navigation toolbox is installed in the 
 src folder of kinetic ws.
   
-##	How to launch diffdrive controller
+##	How to launch diffdrive controller(Finished)
 This is a built in controller of which the source code is not found.
 	
 To use it with out model, simply type:
 
 	roslaunch four_wheel_urdf diffdrive.launch
 This command will load the model and open both Rviz and Gazebo
-## How to create 2D map
+## How to create 2D map (Finished)
 Here we use the diffdrive.launch for simplicity.
 	
 	roslaunch four_wheel_urdf diffdrive.launch
@@ -25,7 +25,7 @@ When the map in Rviz becomes satisfactory, run the following:
 	
 	rosrun map_server map_saver
 Map files (map.pgm and map.yaml will be stored). The map files are crucial in future navigation tasks. Maps are then stored under four_wheel_urdf/maps, be sure you have the correct path in launch files.
-## How to navigate in Rviz
+## How to navigate in Rviz (Finished)
 This function is implemented following the guide from GU YUE JU. 
 Before we start, the navigation toolbox should be installed.
 
@@ -40,7 +40,7 @@ https://blog.csdn.net/qq_33662195/article/details/85110154
 	roslaunch four_wheel_urdf my_navigation_rviz.launch 
 If all right, click the "2D Nav Goal" button on top of Rviz and drag in on the map to specify both position and orientation.
 
-##	How to navigate in Gazebo
+## How to navigate in Gazebo (Working, to be improved)
 The navigation toolbox is also required.
 
 	roslaunch four_wheel_urdf diffdrive.launch
@@ -50,6 +50,9 @@ Tricky thing is, if your move controller subscribes to `/XX/cmd_vel`,not directl
 Still use 2D Nav Goal to specify the pose, but this time the costmap will be updated using the data from lidar.
 
 `However, odometr is not accurate so that there are errors in yaw angle.` 
+
+## Voice control (In progress)
+---
 
 ## About files in launch and config
 ### launch
@@ -81,6 +84,8 @@ Still use 2D Nav Goal to specify the pose, but this time the costmap will be upd
 `nav_config.rviz` config for Rviz in Rviz navigation
 
 `joint_names_four_wheel_urdf.yaml` no use now, just keep it here
+
+
 
 
 
