@@ -28,7 +28,7 @@ This function is implemented following the guide from GU YUE JU.
 Before we start, the navigation toolbox should be installed.
 
 ### Install navigation toolbox
-Theoretically once you cloned this project the navigation toolbox will be download together the kinetic workspace. You can choose to install on yourself.
+Theoretically once you cloned this project the navigation toolbox will be download together with the kinetic workspace. You can choose to install on yourself.
 I've tried the apt-get install ros-kinetic-navigation but somehow failed. If you meet the same problem ,
 try install with source code:
 https://blog.csdn.net/qq_33662195/article/details/85110154
