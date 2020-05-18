@@ -38,8 +38,6 @@ https://blog.csdn.net/qq_33662195/article/details/85110154
 	roslaunch four_wheel_urdf my_navigation_rviz.launch 
 If all right, click the "2D Nav Goal" button on top of Rviz and drag in on the map to specify both position and orientation.
 
-`Some Bugs （crossing the wall） remain.`
-
 ##	How to navigate in Gazebo
 The navigation toolbox is also required.
 
