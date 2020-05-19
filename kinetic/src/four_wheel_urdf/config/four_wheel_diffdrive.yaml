@@ -1,6 +1,6 @@
 type: "diff_drive_controller/DiffDriveController"
 publish_rate: 50
-
+# Modified by yu
 left_wheel: ['front_left_joint','back_left_joint']
 right_wheel: ['front_right_joint','back_right_joint' ]
 # real wheel separation value is 0.34, here is obtained by trials 

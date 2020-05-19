@@ -3,7 +3,8 @@
 <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output= "screen">
 <param name="odom_frame" value="odom"/>
 <param name="map_update_interval" value="1.0"/>
-<!-- Set maxUrange < actual maximum range of the Laser -->
+<!-- Set maxUrange < actual maximum range of the Laser by yu519-->
+
 <param name="maxRange" value="30"/>
 <param name="maxUrange" value="29"/>
 <param name="sigma" value="0.05"/>

@@ -1,3 +1,4 @@
+<!--by yu zhuotong 2020.5.19-->
 <launch>
   <arg name="model" default="$(find four_wheel_urdf)/urdf/four_wheel_urdf.urdf.xacro"/>
   <arg name="rvizconfig" default="$(find urdf_tutorial)/rviz/urdf.rviz" />
@@ -12,7 +13,7 @@
             file="$(find four_wheel_urdf)/config/joints.yaml"
             ns="four_wheel_joint_state_controller" />
     <rosparam command="load"
-            file="$(find four_wheel_urdf)/config/diffdrive.yaml"
+            file="$(find four_wheel_urdf)/config/four_wheel_diffdrive.yaml"
             ns="four_wheel_diff_drive_controller" />
 
   <node name="four_wheel_controller_spawner" pkg="controller_manager" type="spawner"
