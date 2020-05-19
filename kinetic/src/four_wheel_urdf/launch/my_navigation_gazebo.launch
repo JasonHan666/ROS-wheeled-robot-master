@@ -4,7 +4,7 @@
     <arg name="map" default="map.yaml" />
 
     <!-- 运行地图服务器，并且加载设置的地图-->
-    <node name="map_server" pkg="map_server" type="map_server" args="$(find four_wheel_urdf)/maps/map9/$(arg map)"/>
+    <node name="map_server" pkg="map_server" type="map_server" args="$(find four_wheel_urdf)/maps/map10/$(arg map)"/>
 
     <!-- 运行move_base节点 -->
     <node pkg="move_base" type="move_base_four_wheel" respawn="false" name="move_base" output="screen">

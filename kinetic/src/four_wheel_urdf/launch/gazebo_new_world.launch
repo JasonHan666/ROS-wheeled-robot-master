@@ -1,7 +1,7 @@
 <launch>
 
   <!-- these are the arguments you can pass this launch file, for example paused:=true -->
-<arg name="world_name" value="$(find four_wheel_urdf)/gazebo_world/wallroom3/world3.world"/>
+<arg name="world_name" value="$(find four_wheel_urdf)/gazebo_world/wallroom4/model.world"/>
 <arg name="paused" default="false"/>
 <arg name="use_sim_time" default="true"/>
 <arg name="gui" default="true"/>

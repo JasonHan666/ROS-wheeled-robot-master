@@ -11,7 +11,7 @@ To use it with out model, simply type:
 
 	roslaunch four_wheel_urdf diffdrive.launch
 This command will load the model and open both Rviz and Gazebo
-## How to create 2D map (Finished，but need a new map)
+## How to create 2D map (Finished)
 Here we use the diffdrive.launch for simplicity.
 	
 	roslaunch four_wheel_urdf diffdrive.launch
@@ -24,7 +24,7 @@ Add map in Rviz and then use the steer interface to move the robot around.(Cauti
 When the map in Rviz becomes satisfactory, run the following:
 	
 	rosrun map_server map_saver
-Map files (map.pgm and map.yaml will be stored). The map files are crucial in future navigation tasks. Maps are then stored under four_wheel_urdf/maps, be sure you have the correct path in launch files.
+Map files (map.pgm and map.yaml will be stored). The map files are crucial in future navigation tasks. Maps are then stored under four_wheel_urdf/maps, be sure you have the correct path in launch files. `Currently two maps for two different world are vailable.(wallroom2 and map5; wallroom4 and map10)` 
 ## How to navigate in Rviz (Finished)
 This function is implemented following the guide from GU YUE JU. 
 Before we start, the navigation toolbox should be installed.
@@ -38,7 +38,7 @@ https://blog.csdn.net/qq_33662195/article/details/85110154
 ### Rviz navigation
 	roslaunch four_wheel_urdf four_wheel_arbotix.launch 
 	roslaunch four_wheel_urdf my_navigation_rviz.launch 
-If all right, click the "2D Nav Goal" button on top of Rviz and drag in on the map to specify both position and orientation.
+If all right, click the `2D Nav Goal` button on top of Rviz and drag in on the map to specify both position and orientation.
 
 ## How to navigate in Gazebo (To be improved by Shen Bowen)
 The navigation toolbox is also required.
@@ -47,7 +47,7 @@ The navigation toolbox is also required.
 	roslaunch four_wheel_urdf my_navigation_gazebo.launch
 Tricky thing is, if your move controller subscribes to `/XX/cmd_vel`,not directly `/cmd_vel`, you can go to `navigation/move_base/src/move_base.cpp` and change the pubshlish topic `/cmd_vel` into `/XX/cmd_vel` Then catkin_make. In our case, I make two targets with different names `move_base` and `move_base_four_wheel` pointing to `/cmd_vel` and `four_wheel_diff_controller/cmd_vel` respectively. You don't need to modify.
 
-Still use 2D Nav Goal to specify the pose, but this time the costmap will be updated using the data from lidar.
+Still use `2D Nav` Goal to specify the pose, but this time the costmap will be updated using the data from lidar.
 
 `However, odometr is not accurate so that there are errors in yaw angle.` 
 
