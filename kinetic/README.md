@@ -11,7 +11,7 @@ To use it with out model, simply type:
 
 	roslaunch four_wheel_urdf diffdrive.launch
 This command will load the model and open both Rviz and Gazebo
-## How to create 2D map (Finished)
+## How to create 2D map (Finished，but need a new map)
 Here we use the diffdrive.launch for simplicity.
 	
 	roslaunch four_wheel_urdf diffdrive.launch
@@ -69,11 +69,9 @@ Capable to recognize 前进 后退 左转 右转, etc. But only available for on
 
 `gmapping_kinect.launch`calls gamapping for map generation base on kinect.
 
-`my_move_base.launch` calls the move_base node and load bunches of parameters for navigation.
+`my_navigation_gazebo.launch` calls navigation nodes to work with Gazebo environment.
 
-`my_navigation_gazebo.launch` calls my_move_base.launch and other navigation nodes to work with Gazebo environment.
-
-`my_navigation_rviz.launch` calls my_move_base.launch and other navigation nodes to work with Rviz with no physics.
+`my_navigation_rviz.launch` calls navigation nodes to work with Rviz with no physics.
 
 `display.launch` `gazebo.launch.bak` created by solidworks Exporter to urdf. No use now.
 
