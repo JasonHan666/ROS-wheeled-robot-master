@@ -1,12 +1,17 @@
 <launch>
-<arg name="scan_topic" default="/kinect/depth/points" />
+ <node pkg="depthimage_to_laserscan" type="depthimage_to_laserscan" name="depthimage_to_laserscan" output="screen">
+        <remap from="image" to="/kinect/depth/image_raw" />
+        <remap from="camera_info" to="/kinect/depth/camera_info" />
+        <remap from="scan" to="/scan_kinect" />
+        <param name="output_frame_id" value="/kinect_link" />
+</node>
+<arg name="scan_topic" default="scan_kinect" />
 <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output= "screen">
 <param name="odom_frame" value="odom"/>
-<param name="map_update_interval" value="1.0"/>
-<!-- Set maxUrange < actual maximum range of the Laser by yu519-->
-
+<param name="map_update_interval" value="0.5"/>
+<!-- Set maxUrange < actual maximum range of the kinect by yu519-->
 <param name="maxRange" value="30"/>
-<param name="maxUrange" value="29"/>
+<param name="maxUrange" value="6"/>
 <param name="sigma" value="0.05"/>
 <param name="kernelSize" value="1"/>
 <param name="lstep" value="0.05"/>
@@ -33,6 +38,6 @@
 <param name="llsamplestep" value="0.01"/>
 <param name="lasamplerange" value="0.005"/>
 <param name="lasamplestep" value="0.005"/>
-<remap from="/kinect/depth/points" to="$(arg scan_topic)"/>
+<remap from="scan" to="$(arg scan_topic)"/>
 </node>
 </launch>
