@@ -1,16 +1,15 @@
 #	USAGE for Kinetic user
 By Yu Zhuotong
 
-Currently packages in kinetic workspace have implemented ArbotiX diff_controllder, diffdrive controller in Gazebo, gmapping for constructing 2D maps for Gazebo world,and navigation in both Rviz and Gazeabo. The navigation toolbox is installed in the 
-src folder of kinetic ws.
+Currently packages in kinetic workspace have implemented ArbotiX diff_controllder, diffdrive controller in Gazebo, gmapping for constructing 2D maps for Gazebo world,and navigation in both Rviz and Gazeabo. The navigation toolbox is installed in the `src` folder of kinetic ws.
   
 ##	How to launch diffdrive controller(Finished)
-This is a built in controller of which the source code is not found.
+This is a built-in controller of which the source code is not found.
 	
 To use it with out model, simply type:
 
 	roslaunch four_wheel_urdf diffdrive.launch
-This command will load the model and open both Rviz and Gazebo
+This command will load the model and open both Rviz and Gazebo. Though Gazebo has its built-in diffdrive controller, it is designed for two-wheel turtle robot.
 ## How to create 2D map (Finished)
 Here we use the diffdrive.launch for simplicity.
 	
@@ -19,7 +18,7 @@ Here we use the diffdrive.launch for simplicity.
 or you can use kinect instead of lidar:
 
 	roslaunch four_wheel_urdf gmapping_kinect.launch
-Add map in Rviz and then use the steer interface to move the robot around.(Caution: do not collide with any obstacles)
+Add map in Rviz and then use the steer interface to move the robot around.(Caution: do not collide with any obstacles).Strongly recommend that use lidar instead of kinect because lidar has wider and farther range.
 
 When the map in Rviz becomes satisfactory, run the following:
 	
@@ -85,12 +84,3 @@ Capable to recognize 前进 后退 左转 右转, etc. But only available for a 
 `nav_config.rviz` config for Rviz in Rviz navigation
 
 `joint_names_four_wheel_urdf.yaml` no use now, just keep it here
-
-
-
-
-
-
-
-
-
