@@ -1,7 +1,7 @@
 #	USAGE for Kinetic user
 By Yu Zhuotong
 
-Currently packages in kinetic workspace have implemented arbotiX diff_controllder, diffdrive controller in Gazebo, gmapping for constructing 2D maps for Gazebo world,and navigation in both Rviz and Gazeabo. The navigation toolbox is installed in the 
+Currently packages in kinetic workspace have implemented ArbotiX diff_controllder, diffdrive controller in Gazebo, gmapping for constructing 2D maps for Gazebo world,and navigation in both Rviz and Gazeabo. The navigation toolbox is installed in the 
 src folder of kinetic ws.
   
 ##	How to launch diffdrive controller(Finished)
@@ -53,7 +53,7 @@ Still use `2D Nav` Goal to specify the pose, but this time the costmap will be u
 
 ## Voice control (In progress, Sun Yinghan)
 
-Capable to recognize 前进 后退 左转 右转, etc. But only available for one trial for in each terminal. Not combined with robot controller.
+Capable to recognize 前进 后退 左转 右转, etc. But only available for a single trial for in each terminal. Not combined with the robot controller.
  
 ---
 
