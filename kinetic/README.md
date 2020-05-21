@@ -8,12 +8,12 @@ This is a built-in controller of which the source code is not found.
 	
 To use it with out model, simply type:
 
-	roslaunch four_wheel_urdf diffdrive.launch
-This command will load the model and open both Rviz and Gazebo. Though Gazebo has its built-in diffdrive controller, it is designed for two-wheel turtle robot.
+	roslaunch four_wheel_urdf four_wheel_diffdrive.launch
+This command will load the model and open both Rviz and Gazebo. Though Gazebo has its built-in diffdrive controller, it is designed for two-wheel turtle robot and only used in navigation.
 ## How to create 2D map (Finished)
 Here we use the diffdrive.launch for simplicity.
 	
-	roslaunch four_wheel_urdf diffdrive.launch
+	roslaunch four_wheel_urdf four_wheel_diffdrive.launch
 	roslaunch four_wheel_urdf gmapping_lidar.launch
 or you can use kinect instead of lidar:
 
@@ -66,7 +66,9 @@ Capable to recognize 前进 后退 左转 右转, etc. But only available for a 
 ### launch
 `gazebo_new_world.launch` required by diffdrive.launch, help to build up Gazebo world.
 
-`diffdrive.launch` for diffdrive control, which will switch on Rviz and Gazebo and a steering GUI.
+`four_wheel_diffdrive.launch` for diffdrive control, which will switch on Rviz and Gazebo and a steering GUI.
+
+`two_wheel_diffdrive.launch`  Gazebo diffdrive control, switch on Rviz and Gazebo. Only Front wheels are controlled.
 
 `four_wheel_arbotix.launch` for ArbotiX diffdrive,which is only used in Rviz(no physical properties),and switch on nothing. Works in pair with "my_navigation_rviz.launch".
 
@@ -75,6 +77,8 @@ Capable to recognize 前进 后退 左转 右转, etc. But only available for a 
 `gmapping_kinect.launch`calls gamapping for map generation base on kinect.
 
 `my_navigation_gazebo.launch` calls navigation nodes to work with Gazebo environment.
+
+`my_navigation_gazebo_two_wheel.launch` calls navigation nodes to work with Gazebo environment.For two-wheel diffdrive only.
 
 `my_navigation_rviz.launch` calls navigation nodes to work with Rviz with no physics.
 
