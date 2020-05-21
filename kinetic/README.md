@@ -1,4 +1,4 @@
-#	USAGE for Kinetic user
+#	USAGE for Kinetic User
 By Yu Zhuotong
 
 Currently packages in kinetic workspace have implemented ArbotiX diff_controllder, diffdrive controller in Gazebo, gmapping for constructing 2D maps for Gazebo world,and navigation in both Rviz and Gazeabo. The navigation toolbox is installed in the `src` folder of kinetic ws.
@@ -49,11 +49,12 @@ Tricky thing is, if your move controller subscribes to `/XX/cmd_vel`,not directl
 
 Still use `2D Nav` Goal to specify the pose, but this time the costmap will be updated using the data from lidar.
 
-`However, odometr is not accurate so that there are errors in yaw angle.` To solve this problem, I tried the built-in diffdrive lib from Gazebo, which is found to be nice choice. 
+`However, odometr is not accurate so that there are errors in yaw angle.` To solve this problem, I tried the built-in diffdrive lib from Gazebo, which is found to be a nice choice. 
 The command:
 
 	roslaunch four_wheel_urdf two_wheel_diffdrive.launch
 	roslaunch four_wheel_urdf my_navigation_gazebo_two_wheel.launch
+open both Rviz and Gazebo. The tf from baselink to odom will be given by gazebo, not calculated from odometer.
 
 ## Voice control (In progress, Sun Yinghan)
 
