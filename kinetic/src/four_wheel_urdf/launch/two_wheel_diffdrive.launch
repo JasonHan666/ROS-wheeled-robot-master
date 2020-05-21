@@ -1,0 +1,12 @@
+<!--by yu zhuotong 2020.5.19-->
+<launch>
+  <arg name="model" default="$(find four_wheel_urdf)/urdf/two_wheel_urdf.urdf.xacro"/>
+  <arg name="rvizconfig" default="$(find urdf_tutorial)/rviz/urdf.rviz" />
+
+  <include file="$(find four_wheel_urdf)/launch/gazebo_new_world.launch">
+    <arg name="model" value="$(arg model)" />
+  </include>
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find four_wheel_urdf)/config/nav_config.rviz" />
+  
+</launch>

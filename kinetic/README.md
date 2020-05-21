@@ -39,16 +39,21 @@ https://blog.csdn.net/qq_33662195/article/details/85110154
 	roslaunch four_wheel_urdf my_navigation_rviz.launch 
 If all right, click the `2D Nav Goal` button on top of Rviz and drag in on the map to specify both position and orientation.
 
-## How to navigate in Gazebo (To be improved by Shen Bowen)
+## How to navigate in Gazebo (Finished)
 The navigation toolbox is also required.
 
-	roslaunch four_wheel_urdf diffdrive.launch
+	roslaunch four_wheel_urdf four_wheel_diffdrive.launch
 	roslaunch four_wheel_urdf my_navigation_gazebo.launch
+
 Tricky thing is, if your move controller subscribes to `/XX/cmd_vel`,not directly `/cmd_vel`, you can go to `navigation/move_base/src/move_base.cpp` and change the pubshlish topic `/cmd_vel` into `/XX/cmd_vel` Then catkin_make. In our case, I make two targets with different names `move_base` and `move_base_four_wheel` pointing to `/cmd_vel` and `four_wheel_diff_controller/cmd_vel` respectively. You don't need to modify.
 
 Still use `2D Nav` Goal to specify the pose, but this time the costmap will be updated using the data from lidar.
 
-`However, odometr is not accurate so that there are errors in yaw angle.` 
+`However, odometr is not accurate so that there are errors in yaw angle.` To solve this problem, I tried the built-in diffdrive lib from Gazebo, which is found to be nice choice. 
+The command:
+
+	roslaunch four_wheel_urdf two_wheel_diffdrive.launch
+	roslaunch four_wheel_urdf my_navigation_gazebo_two_wheel.launch
 
 ## Voice control (In progress, Sun Yinghan)
 
