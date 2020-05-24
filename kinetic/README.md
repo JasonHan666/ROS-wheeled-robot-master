@@ -62,6 +62,13 @@ Capable to recognize 前进\向前 后退\向后 左转\向左 右转\向右 停
 
 	roslaunch four_wheel_urdf four_wheel_diffdrive.launch
 	roslaunch sound_control start.launch
+It's recommanded to echo the topic `/four_wheel_diff_controller/cmd_vel` in another terminal to monitor the mseeage published by the node `command_publisher_test`.
+
+You can also use
+
+	rosrun sound_control wakeUp
+	rosrun sound_control command_publisher_test
+to replace `start.launch`. In this way, the results of the speech recognization will be shown in the terminal.
  
 ---
 
