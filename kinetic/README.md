@@ -34,6 +34,11 @@ I've tried the apt-get install ros-kinetic-navigation but somehow failed. If you
 try install with source code:
 https://blog.csdn.net/qq_33662195/article/details/85110154
 
+Also, two packages need to be installed:
+
+	sudo apt-get install ros-kinetic-navigation
+	sudo apt-get install ros-kinetic-arbotix
+
 ### Rviz navigation
 	roslaunch four_wheel_urdf four_wheel_arbotix.launch 
 	roslaunch four_wheel_urdf my_navigation_rviz.launch 
