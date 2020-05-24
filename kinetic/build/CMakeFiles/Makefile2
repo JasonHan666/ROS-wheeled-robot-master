@@ -285,7 +285,7 @@ gtest/preinstall: gtest/gtest/preinstall
 gtest/CMakeFiles/gmock.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gmock.dir/build.make gtest/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gmock.dir/build.make gtest/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=41 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=42 "Built target gmock"
 .PHONY : gtest/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -317,7 +317,7 @@ clean: gtest/CMakeFiles/gmock.dir/clean
 gtest/CMakeFiles/gmock_main.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gmock_main.dir/build.make gtest/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gmock_main.dir/build.make gtest/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=42,43 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=43,44 "Built target gmock_main"
 .PHONY : gtest/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -368,12 +368,12 @@ gtest/gtest/preinstall:
 gtest/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest.dir/build.make gtest/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest.dir/build.make gtest/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=44 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num= "Built target gtest"
 .PHONY : gtest/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/gtest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/gtest/CMakeFiles/gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : gtest/gtest/CMakeFiles/gtest.dir/rule
@@ -400,7 +400,7 @@ clean: gtest/gtest/CMakeFiles/gtest.dir/clean
 gtest/gtest/CMakeFiles/gtest_main.dir/all: gtest/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num= "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=45 "Built target gtest_main"
 .PHONY : gtest/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -537,7 +537,7 @@ navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_genpy.dir/all: navigati
 
 # Build rule for subdir invocation for target.
 navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_genpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_genpy.dir/rule
@@ -804,12 +804,12 @@ navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_py.di
 navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_py.dir/all: navigation_msgs/move_base_msgs/CMakeFiles/_move_base_msgs_generate_messages_check_deps_MoveBaseGoal.dir/all
 	$(MAKE) -f navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=82,83 "Built target move_base_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=82,83,84 "Built target move_base_msgs_generate_messages_py"
 .PHONY : navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_py.dir/rule
@@ -876,12 +876,12 @@ navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_cpp.d
 navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/all: navigation_msgs/move_base_msgs/CMakeFiles/_move_base_msgs_generate_messages_check_deps_MoveBaseGoal.dir/all
 	$(MAKE) -f navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build.make navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build.make navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=71,72,73 "Built target move_base_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=72,73 "Built target move_base_msgs_generate_messages_cpp"
 .PHONY : navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/rule
@@ -1418,7 +1418,7 @@ navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_gencpp.dir/all: navigat
 
 # Build rule for subdir invocation for target.
 navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation_msgs/move_base_msgs/CMakeFiles/move_base_msgs_gencpp.dir/rule
@@ -1803,7 +1803,7 @@ all: navigation/map_server/CMakeFiles/rtest.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/map_server/CMakeFiles/rtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/rtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/map_server/CMakeFiles/rtest.dir/rule
@@ -1994,7 +1994,7 @@ navigation/map_server/CMakeFiles/map_server_utest.dir/all: gtest/gtest/CMakeFile
 navigation/map_server/CMakeFiles/map_server_utest.dir/all: navigation/map_server/CMakeFiles/map_server_image_loader.dir/all
 	$(MAKE) -f navigation/map_server/CMakeFiles/map_server_utest.dir/build.make navigation/map_server/CMakeFiles/map_server_utest.dir/depend
 	$(MAKE) -f navigation/map_server/CMakeFiles/map_server_utest.dir/build.make navigation/map_server/CMakeFiles/map_server_utest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=69 "Built target map_server_utest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=70 "Built target map_server_utest"
 .PHONY : navigation/map_server/CMakeFiles/map_server_utest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2515,7 +2515,7 @@ navigation/map_server/CMakeFiles/map_server_image_loader.dir/all: navigation/map
 navigation/map_server/CMakeFiles/map_server_image_loader.dir/all: navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f navigation/map_server/CMakeFiles/map_server_image_loader.dir/build.make navigation/map_server/CMakeFiles/map_server_image_loader.dir/depend
 	$(MAKE) -f navigation/map_server/CMakeFiles/map_server_image_loader.dir/build.make navigation/map_server/CMakeFiles/map_server_image_loader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num= "Built target map_server_image_loader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=69 "Built target map_server_image_loader"
 .PHONY : navigation/map_server/CMakeFiles/map_server_image_loader.dir/all
 
 # Include target in all.
@@ -2525,7 +2525,7 @@ all: navigation/map_server/CMakeFiles/map_server_image_loader.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/map_server/CMakeFiles/map_server_image_loader.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/map_server/CMakeFiles/map_server_image_loader.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/map_server/CMakeFiles/map_server_image_loader.dir/rule
@@ -2972,7 +2972,7 @@ navigation/map_server/CMakeFiles/map_server.dir/all: navigation/map_server/CMake
 navigation/map_server/CMakeFiles/map_server.dir/all: navigation/map_server/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f navigation/map_server/CMakeFiles/map_server.dir/build.make navigation/map_server/CMakeFiles/map_server.dir/depend
 	$(MAKE) -f navigation/map_server/CMakeFiles/map_server.dir/build.make navigation/map_server/CMakeFiles/map_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=67 "Built target map_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num= "Built target map_server"
 .PHONY : navigation/map_server/CMakeFiles/map_server.dir/all
 
 # Include target in all.
@@ -3057,7 +3057,7 @@ navigation_msgs/map_msgs/CMakeFiles/map_msgs_gennodejs.dir/all: navigation_msgs/
 
 # Build rule for subdir invocation for target.
 navigation_msgs/map_msgs/CMakeFiles/map_msgs_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 navigation_msgs/map_msgs/CMakeFiles/map_msgs_gennodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation_msgs/map_msgs/CMakeFiles/map_msgs_gennodejs.dir/rule
@@ -3096,12 +3096,12 @@ navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_nodejs.dir/all: n
 navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_nodejs.dir/all: navigation_msgs/map_msgs/CMakeFiles/_map_msgs_generate_messages_check_deps_OccupancyGridUpdate.dir/all
 	$(MAKE) -f navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=60,61,62 "Built target map_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=60,61,62,63 "Built target map_msgs_generate_messages_nodejs"
 .PHONY : navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule
@@ -3268,12 +3268,12 @@ navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all: navi
 navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all: navigation_msgs/map_msgs/CMakeFiles/_map_msgs_generate_messages_check_deps_OccupancyGridUpdate.dir/all
 	$(MAKE) -f navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=49,50,51 "Built target map_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=49,50,51,52 "Built target map_msgs_generate_messages_cpp"
 .PHONY : navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule
@@ -3344,7 +3344,7 @@ navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all: navi
 navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all: navigation_msgs/map_msgs/CMakeFiles/_map_msgs_generate_messages_check_deps_OccupancyGridUpdate.dir/all
 	$(MAKE) -f navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/build.make navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/build.make navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=52,53,54,55 "Built target map_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=53,54,55,56 "Built target map_msgs_generate_messages_eus"
 .PHONY : navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3390,7 +3390,7 @@ all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages.dir/all
 
 # Build rule for subdir invocation for target.
 navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages.dir/rule
@@ -3582,7 +3582,7 @@ navigation_msgs/map_msgs/CMakeFiles/map_msgs_genlisp.dir/all: navigation_msgs/ma
 
 # Build rule for subdir invocation for target.
 navigation_msgs/map_msgs/CMakeFiles/map_msgs_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 navigation_msgs/map_msgs/CMakeFiles/map_msgs_genlisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation_msgs/map_msgs/CMakeFiles/map_msgs_genlisp.dir/rule
@@ -3774,7 +3774,7 @@ navigation_msgs/map_msgs/CMakeFiles/map_msgs_gencpp.dir/all: navigation_msgs/map
 
 # Build rule for subdir invocation for target.
 navigation_msgs/map_msgs/CMakeFiles/map_msgs_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 navigation_msgs/map_msgs/CMakeFiles/map_msgs_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation_msgs/map_msgs/CMakeFiles/map_msgs_gencpp.dir/rule
@@ -3813,7 +3813,7 @@ navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_py.dir/all: navig
 navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_py.dir/all: navigation_msgs/map_msgs/CMakeFiles/_map_msgs_generate_messages_check_deps_OccupancyGridUpdate.dir/all
 	$(MAKE) -f navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_py.dir/build.make navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_py.dir/build.make navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=63,64,65,66 "Built target map_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=64,65,66,67 "Built target map_msgs_generate_messages_py"
 .PHONY : navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3921,12 +3921,12 @@ navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_lisp.dir/all: nav
 navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_lisp.dir/all: navigation_msgs/map_msgs/CMakeFiles/_map_msgs_generate_messages_check_deps_OccupancyGridUpdate.dir/all
 	$(MAKE) -f navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=56,57,58,59 "Built target map_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=57,58,59 "Built target map_msgs_generate_messages_lisp"
 .PHONY : navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule
@@ -3951,12 +3951,14 @@ clean: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_lisp.dir/c
 
 # Convenience name for "all" pass in the directory.
 sound_control/all: sound_control/CMakeFiles/command_publisher.dir/all
+sound_control/all: sound_control/CMakeFiles/command_publisher_test.dir/all
 sound_control/all: sound_control/CMakeFiles/wakeUp.dir/all
 
 .PHONY : sound_control/all
 
 # Convenience name for "clean" pass in the directory.
 sound_control/clean: sound_control/CMakeFiles/command_publisher.dir/clean
+sound_control/clean: sound_control/CMakeFiles/command_publisher_test.dir/clean
 sound_control/clean: sound_control/CMakeFiles/wakeUp.dir/clean
 
 .PHONY : sound_control/clean
@@ -3973,7 +3975,7 @@ sound_control/preinstall:
 sound_control/CMakeFiles/command_publisher.dir/all:
 	$(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/depend
 	$(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=23 "Built target command_publisher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=22,23 "Built target command_publisher"
 .PHONY : sound_control/CMakeFiles/command_publisher.dir/all
 
 # Include target in all.
@@ -3983,7 +3985,7 @@ all: sound_control/CMakeFiles/command_publisher.dir/all
 
 # Build rule for subdir invocation for target.
 sound_control/CMakeFiles/command_publisher.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 sound_control/CMakeFiles/command_publisher.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : sound_control/CMakeFiles/command_publisher.dir/rule
@@ -4000,6 +4002,43 @@ sound_control/CMakeFiles/command_publisher.dir/clean:
 
 # clean rule for target.
 clean: sound_control/CMakeFiles/command_publisher.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target sound_control/CMakeFiles/command_publisher_test.dir
+
+# All Build rule for target.
+sound_control/CMakeFiles/command_publisher_test.dir/all:
+	$(MAKE) -f sound_control/CMakeFiles/command_publisher_test.dir/build.make sound_control/CMakeFiles/command_publisher_test.dir/depend
+	$(MAKE) -f sound_control/CMakeFiles/command_publisher_test.dir/build.make sound_control/CMakeFiles/command_publisher_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=24 "Built target command_publisher_test"
+.PHONY : sound_control/CMakeFiles/command_publisher_test.dir/all
+
+# Include target in all.
+all: sound_control/CMakeFiles/command_publisher_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+sound_control/CMakeFiles/command_publisher_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 sound_control/CMakeFiles/command_publisher_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
+.PHONY : sound_control/CMakeFiles/command_publisher_test.dir/rule
+
+# Convenience name for target.
+command_publisher_test: sound_control/CMakeFiles/command_publisher_test.dir/rule
+
+.PHONY : command_publisher_test
+
+# clean rule for target.
+sound_control/CMakeFiles/command_publisher_test.dir/clean:
+	$(MAKE) -f sound_control/CMakeFiles/command_publisher_test.dir/build.make sound_control/CMakeFiles/command_publisher_test.dir/clean
+.PHONY : sound_control/CMakeFiles/command_publisher_test.dir/clean
+
+# clean rule for target.
+clean: sound_control/CMakeFiles/command_publisher_test.dir/clean
 
 .PHONY : clean
 
@@ -6255,7 +6294,7 @@ navigation/fake_localization/CMakeFiles/fake_localization.dir/all: navigation/am
 navigation/fake_localization/CMakeFiles/fake_localization.dir/all: navigation/amcl/CMakeFiles/actionlib_generate_messages_eus.dir/all
 	$(MAKE) -f navigation/fake_localization/CMakeFiles/fake_localization.dir/build.make navigation/fake_localization/CMakeFiles/fake_localization.dir/depend
 	$(MAKE) -f navigation/fake_localization/CMakeFiles/fake_localization.dir/build.make navigation/fake_localization/CMakeFiles/fake_localization.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=37 "Built target fake_localization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num= "Built target fake_localization"
 .PHONY : navigation/fake_localization/CMakeFiles/fake_localization.dir/all
 
 # Include target in all.
@@ -6265,7 +6304,7 @@ all: navigation/fake_localization/CMakeFiles/fake_localization.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/fake_localization/CMakeFiles/fake_localization.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/fake_localization/CMakeFiles/fake_localization.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/fake_localization/CMakeFiles/fake_localization.dir/rule
@@ -6342,7 +6381,7 @@ navigation/voxel_grid/CMakeFiles/voxel_grid_tests.dir/all: navigation/voxel_grid
 
 # Build rule for subdir invocation for target.
 navigation/voxel_grid/CMakeFiles/voxel_grid_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/voxel_grid/CMakeFiles/voxel_grid_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/voxel_grid/CMakeFiles/voxel_grid_tests.dir/rule
@@ -6440,7 +6479,7 @@ navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid.dir/all: navigation/voxel_
 
 # Build rule for subdir invocation for target.
 navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid.dir/rule
@@ -6523,7 +6562,7 @@ navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid_gtest.dir/all: navigation/
 
 # Build rule for subdir invocation for target.
 navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid_gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid_gtest.dir/rule
@@ -6555,7 +6594,7 @@ navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid_gtest_voxel_grid_tests.dir
 
 # Build rule for subdir invocation for target.
 navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid_gtest_voxel_grid_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid_gtest_voxel_grid_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/voxel_grid/CMakeFiles/run_tests_voxel_grid_gtest_voxel_grid_tests.dir/rule
@@ -6792,7 +6831,7 @@ navigation/costmap_2d/CMakeFiles/coordinates_test.dir/all: navigation/voxel_grid
 navigation/costmap_2d/CMakeFiles/coordinates_test.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/coordinates_test.dir/build.make navigation/costmap_2d/CMakeFiles/coordinates_test.dir/depend
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/coordinates_test.dir/build.make navigation/costmap_2d/CMakeFiles/coordinates_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=24 "Built target coordinates_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=25 "Built target coordinates_test"
 .PHONY : navigation/costmap_2d/CMakeFiles/coordinates_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -6959,7 +6998,6 @@ navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all: navigation_msgs/map_m
 navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -6980,6 +7018,7 @@ navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all: navigation/voxel_grid
 navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
@@ -6990,7 +7029,7 @@ navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all: navigation/costmap_2d
 navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/build.make navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/depend
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/build.make navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=28 "Built target costmap_2d_cloud"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=29 "Built target costmap_2d_cloud"
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all
 
 # Include target in all.
@@ -7000,7 +7039,7 @@ all: navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_2d_cloud.dir/rule
@@ -7064,7 +7103,6 @@ navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all: navigation_msgs/map_msgs/CM
 navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -7084,6 +7122,7 @@ navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all: navigation/amcl/CMakeFiles/
 navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all: navigation/voxel_grid/CMakeFiles/voxel_grid.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
@@ -7094,7 +7133,7 @@ navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all: navigation/costmap_2d/CMake
 navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/costmap_2d.dir/build.make navigation/costmap_2d/CMakeFiles/costmap_2d.dir/depend
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/costmap_2d.dir/build.make navigation/costmap_2d/CMakeFiles/costmap_2d.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=25,26,27 "Built target costmap_2d"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=26,27,28 "Built target costmap_2d"
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all
 
 # Include target in all.
@@ -7104,7 +7143,7 @@ all: navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/costmap_2d.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 27
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_2d.dir/rule
@@ -7168,7 +7207,6 @@ navigation/costmap_2d/CMakeFiles/layers.dir/all: navigation_msgs/map_msgs/CMakeF
 navigation/costmap_2d/CMakeFiles/layers.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation/costmap_2d/CMakeFiles/layers.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 navigation/costmap_2d/CMakeFiles/layers.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-navigation/costmap_2d/CMakeFiles/layers.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/costmap_2d/CMakeFiles/layers.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 navigation/costmap_2d/CMakeFiles/layers.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation/costmap_2d/CMakeFiles/layers.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -7189,6 +7227,7 @@ navigation/costmap_2d/CMakeFiles/layers.dir/all: navigation/voxel_grid/CMakeFile
 navigation/costmap_2d/CMakeFiles/layers.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all
 navigation/costmap_2d/CMakeFiles/layers.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all
 navigation/costmap_2d/CMakeFiles/layers.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+navigation/costmap_2d/CMakeFiles/layers.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/costmap_2d/CMakeFiles/layers.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 navigation/costmap_2d/CMakeFiles/layers.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 navigation/costmap_2d/CMakeFiles/layers.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
@@ -7199,7 +7238,7 @@ navigation/costmap_2d/CMakeFiles/layers.dir/all: navigation/costmap_2d/CMakeFile
 navigation/costmap_2d/CMakeFiles/layers.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/layers.dir/build.make navigation/costmap_2d/CMakeFiles/layers.dir/depend
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/layers.dir/build.make navigation/costmap_2d/CMakeFiles/layers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=46,47 "Built target layers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=47,48 "Built target layers"
 .PHONY : navigation/costmap_2d/CMakeFiles/layers.dir/all
 
 # Include target in all.
@@ -7209,7 +7248,7 @@ all: navigation/costmap_2d/CMakeFiles/layers.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/layers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/layers.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/layers.dir/rule
@@ -7236,7 +7275,7 @@ clean: navigation/costmap_2d/CMakeFiles/layers.dir/clean
 navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all:
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/build.make navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/depend
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/build.make navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=29,30 "Built target costmap_2d_gencfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=30,31 "Built target costmap_2d_gencfg"
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all
 
 # Include target in all.
@@ -7311,12 +7350,12 @@ navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all: na
 navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all: navigation/costmap_2d/CMakeFiles/_costmap_2d_generate_messages_check_deps_VoxelGrid.dir/all
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build.make navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/depend
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build.make navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=32 "Built target costmap_2d_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=33 "Built target costmap_2d_generate_messages_nodejs"
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/rule
@@ -7412,7 +7451,6 @@ navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all: navigation_msgs/map_ms
 navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -7433,6 +7471,7 @@ navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all: navigation/voxel_grid/
 navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
@@ -7443,7 +7482,7 @@ navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all: navigation/costmap_2d/
 navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/build.make navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/depend
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/build.make navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=34 "Built target costmap_2d_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=35 "Built target costmap_2d_node"
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all
 
 # Include target in all.
@@ -7453,7 +7492,7 @@ all: navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_2d_node.dir/rule
@@ -7559,7 +7598,7 @@ all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages.dir/rule
@@ -7591,7 +7630,7 @@ navigation/costmap_2d/CMakeFiles/costmap_2d_gencpp.dir/all: navigation/costmap_2
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/costmap_2d_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/costmap_2d_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_2d_gencpp.dir/rule
@@ -7693,7 +7732,7 @@ navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all: navig
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/rule
@@ -7722,12 +7761,12 @@ navigation/costmap_2d/CMakeFiles/footprint_tests.dir/all: navigation/voxel_grid/
 navigation/costmap_2d/CMakeFiles/footprint_tests.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/footprint_tests.dir/build.make navigation/costmap_2d/CMakeFiles/footprint_tests.dir/depend
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/footprint_tests.dir/build.make navigation/costmap_2d/CMakeFiles/footprint_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num= "Built target footprint_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=38 "Built target footprint_tests"
 .PHONY : navigation/costmap_2d/CMakeFiles/footprint_tests.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/footprint_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/footprint_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/footprint_tests.dir/rule
@@ -7757,7 +7796,7 @@ navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all: navig
 navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all: navigation/costmap_2d/CMakeFiles/_costmap_2d_generate_messages_check_deps_VoxelGrid.dir/all
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/build.make navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/depend
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/build.make navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=31 "Built target costmap_2d_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=32 "Built target costmap_2d_generate_messages_eus"
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
@@ -7826,7 +7865,7 @@ navigation/costmap_2d/CMakeFiles/costmap_2d_gennodejs.dir/all: navigation/costma
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/costmap_2d_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/costmap_2d_gennodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_2d_gennodejs.dir/rule
@@ -7920,7 +7959,7 @@ navigation/costmap_2d/CMakeFiles/inflation_tests.dir/all: navigation/costmap_2d/
 navigation/costmap_2d/CMakeFiles/inflation_tests.dir/all: navigation/costmap_2d/CMakeFiles/layers.dir/all
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/inflation_tests.dir/build.make navigation/costmap_2d/CMakeFiles/inflation_tests.dir/depend
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/inflation_tests.dir/build.make navigation/costmap_2d/CMakeFiles/inflation_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=45 "Built target inflation_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=46 "Built target inflation_tests"
 .PHONY : navigation/costmap_2d/CMakeFiles/inflation_tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -7989,7 +8028,6 @@ navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all: navigation_msgs/map
 navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -8010,6 +8048,7 @@ navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all: navigation/voxel_gr
 navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
@@ -8020,7 +8059,7 @@ navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all: navigation/costmap_
 navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/build.make navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/depend
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/build.make navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=33 "Built target costmap_2d_markers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=34 "Built target costmap_2d_markers"
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all
 
 # Include target in all.
@@ -8030,7 +8069,7 @@ all: navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_2d_markers.dir/rule
@@ -8097,7 +8136,7 @@ navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_lisp.dir/all: navi
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_lisp.dir/rule
@@ -8193,12 +8232,12 @@ navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/all: navigation/costmap_2d/C
 navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/all: navigation/costmap_2d/CMakeFiles/layers.dir/all
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/build.make navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/depend
 	$(MAKE) -f navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/build.make navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num= "Built target obstacle_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=92 "Built target obstacle_tests"
 .PHONY : navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/obstacle_tests.dir/rule
@@ -8494,7 +8533,7 @@ navigation/costmap_2d/CMakeFiles/costmap_2d_genlisp.dir/all: navigation/costmap_
 
 # Build rule for subdir invocation for target.
 navigation/costmap_2d/CMakeFiles/costmap_2d_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/costmap_2d/CMakeFiles/costmap_2d_genlisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/costmap_2d/CMakeFiles/costmap_2d_genlisp.dir/rule
@@ -8920,7 +8959,7 @@ navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest_line
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest_line_iterator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest_line_iterator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest_line_iterator.dir/rule
@@ -8947,12 +8986,12 @@ clean: navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gte
 navigation/base_local_planner/CMakeFiles/line_iterator.dir/all: gtest/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f navigation/base_local_planner/CMakeFiles/line_iterator.dir/build.make navigation/base_local_planner/CMakeFiles/line_iterator.dir/depend
 	$(MAKE) -f navigation/base_local_planner/CMakeFiles/line_iterator.dir/build.make navigation/base_local_planner/CMakeFiles/line_iterator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=48 "Built target line_iterator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num= "Built target line_iterator"
 .PHONY : navigation/base_local_planner/CMakeFiles/line_iterator.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/line_iterator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/line_iterator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/line_iterator.dir/rule
@@ -9116,7 +9155,6 @@ navigation/base_local_planner/CMakeFiles/point_grid.dir/all: navigation_msgs/map
 navigation/base_local_planner/CMakeFiles/point_grid.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation/base_local_planner/CMakeFiles/point_grid.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 navigation/base_local_planner/CMakeFiles/point_grid.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-navigation/base_local_planner/CMakeFiles/point_grid.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/base_local_planner/CMakeFiles/point_grid.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 navigation/base_local_planner/CMakeFiles/point_grid.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation/base_local_planner/CMakeFiles/point_grid.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -9138,6 +9176,7 @@ navigation/base_local_planner/CMakeFiles/point_grid.dir/all: navigation/costmap_
 navigation/base_local_planner/CMakeFiles/point_grid.dir/all: navigation/costmap_2d/CMakeFiles/layers.dir/all
 navigation/base_local_planner/CMakeFiles/point_grid.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all
 navigation/base_local_planner/CMakeFiles/point_grid.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+navigation/base_local_planner/CMakeFiles/point_grid.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/base_local_planner/CMakeFiles/point_grid.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 navigation/base_local_planner/CMakeFiles/point_grid.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 navigation/base_local_planner/CMakeFiles/point_grid.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
@@ -9165,7 +9204,7 @@ all: navigation/base_local_planner/CMakeFiles/point_grid.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/point_grid.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 39
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 40
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/point_grid.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/point_grid.dir/rule
@@ -9197,7 +9236,7 @@ navigation/base_local_planner/CMakeFiles/base_local_planner_genlisp.dir/all: nav
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/base_local_planner_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/base_local_planner_genlisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/base_local_planner_genlisp.dir/rule
@@ -9229,7 +9268,7 @@ navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner.dir/all: n
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 42
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner.dir/rule
@@ -9257,12 +9296,12 @@ navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_li
 navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/all: navigation/base_local_planner/CMakeFiles/_base_local_planner_generate_messages_check_deps_Position2DInt.dir/all
 	$(MAKE) -f navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/build.make navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/depend
 	$(MAKE) -f navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/build.make navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num= "Built target base_local_planner_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=16 "Built target base_local_planner_generate_messages_lisp"
 .PHONY : navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_lisp.dir/rule
@@ -9290,12 +9329,12 @@ navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_eu
 navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/all: navigation/base_local_planner/CMakeFiles/_base_local_planner_generate_messages_check_deps_Position2DInt.dir/all
 	$(MAKE) -f navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/build.make navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/depend
 	$(MAKE) -f navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/build.make navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=16 "Built target base_local_planner_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num= "Built target base_local_planner_generate_messages_eus"
 .PHONY : navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_eus.dir/rule
@@ -9356,12 +9395,12 @@ navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_cp
 navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/all: navigation/base_local_planner/CMakeFiles/_base_local_planner_generate_messages_check_deps_Position2DInt.dir/all
 	$(MAKE) -f navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/build.make navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/depend
 	$(MAKE) -f navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/build.make navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num= "Built target base_local_planner_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=15 "Built target base_local_planner_generate_messages_cpp"
 .PHONY : navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages_cpp.dir/rule
@@ -9393,7 +9432,7 @@ navigation/base_local_planner/CMakeFiles/base_local_planner_gencpp.dir/all: navi
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/base_local_planner_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/base_local_planner_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/base_local_planner_gencpp.dir/rule
@@ -9452,7 +9491,7 @@ clean: navigation/base_local_planner/CMakeFiles/base_local_planner_genpy.dir/cle
 navigation/base_local_planner/CMakeFiles/base_local_planner_gencfg.dir/all:
 	$(MAKE) -f navigation/base_local_planner/CMakeFiles/base_local_planner_gencfg.dir/build.make navigation/base_local_planner/CMakeFiles/base_local_planner_gencfg.dir/depend
 	$(MAKE) -f navigation/base_local_planner/CMakeFiles/base_local_planner_gencfg.dir/build.make navigation/base_local_planner/CMakeFiles/base_local_planner_gencfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=15 "Built target base_local_planner_gencfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num= "Built target base_local_planner_gencfg"
 .PHONY : navigation/base_local_planner/CMakeFiles/base_local_planner_gencfg.dir/all
 
 # Include target in all.
@@ -9462,7 +9501,7 @@ all: navigation/base_local_planner/CMakeFiles/base_local_planner_gencfg.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/base_local_planner_gencfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/base_local_planner_gencfg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/base_local_planner_gencfg.dir/rule
@@ -9560,7 +9599,7 @@ navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest.dir/
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 43
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 42
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/run_tests_base_local_planner_gtest.dir/rule
@@ -9659,7 +9698,6 @@ navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/all: navigat
 navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -9681,6 +9719,7 @@ navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/all: navigat
 navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/all: navigation/costmap_2d/CMakeFiles/layers.dir/all
 navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all
 navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
@@ -9708,7 +9747,7 @@ all: navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 39
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 40
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/rule
@@ -9749,7 +9788,7 @@ all: navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messag
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/base_local_planner_generate_messages.dir/rule
@@ -9791,7 +9830,7 @@ all: navigation/base_local_planner/CMakeFiles/base_local_planner.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/base_local_planner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 37
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/base_local_planner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/base_local_planner.dir/rule
@@ -9860,7 +9899,7 @@ navigation/base_local_planner/CMakeFiles/base_local_planner_geneus.dir/all: navi
 
 # Build rule for subdir invocation for target.
 navigation/base_local_planner/CMakeFiles/base_local_planner_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/base_local_planner/CMakeFiles/base_local_planner_geneus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/base_local_planner/CMakeFiles/base_local_planner_geneus.dir/rule
@@ -10039,7 +10078,6 @@ navigation/carrot_planner/CMakeFiles/carrot_planner.dir/all: navigation_msgs/map
 navigation/carrot_planner/CMakeFiles/carrot_planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation/carrot_planner/CMakeFiles/carrot_planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 navigation/carrot_planner/CMakeFiles/carrot_planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-navigation/carrot_planner/CMakeFiles/carrot_planner.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/carrot_planner/CMakeFiles/carrot_planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 navigation/carrot_planner/CMakeFiles/carrot_planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation/carrot_planner/CMakeFiles/carrot_planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -10061,6 +10099,7 @@ navigation/carrot_planner/CMakeFiles/carrot_planner.dir/all: navigation/costmap_
 navigation/carrot_planner/CMakeFiles/carrot_planner.dir/all: navigation/costmap_2d/CMakeFiles/layers.dir/all
 navigation/carrot_planner/CMakeFiles/carrot_planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all
 navigation/carrot_planner/CMakeFiles/carrot_planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+navigation/carrot_planner/CMakeFiles/carrot_planner.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/carrot_planner/CMakeFiles/carrot_planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 navigation/carrot_planner/CMakeFiles/carrot_planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 navigation/carrot_planner/CMakeFiles/carrot_planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
@@ -10089,7 +10128,7 @@ all: navigation/carrot_planner/CMakeFiles/carrot_planner.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/carrot_planner/CMakeFiles/carrot_planner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/carrot_planner/CMakeFiles/carrot_planner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/carrot_planner/CMakeFiles/carrot_planner.dir/rule
@@ -10179,7 +10218,7 @@ navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery.di
 
 # Build rule for subdir invocation for target.
 navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery.dir/rule
@@ -10210,12 +10249,12 @@ navigation/clear_costmap_recovery/CMakeFiles/clear_tester.dir/all: navigation/co
 navigation/clear_costmap_recovery/CMakeFiles/clear_tester.dir/all: navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all
 	$(MAKE) -f navigation/clear_costmap_recovery/CMakeFiles/clear_tester.dir/build.make navigation/clear_costmap_recovery/CMakeFiles/clear_tester.dir/depend
 	$(MAKE) -f navigation/clear_costmap_recovery/CMakeFiles/clear_tester.dir/build.make navigation/clear_costmap_recovery/CMakeFiles/clear_tester.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=22 "Built target clear_tester"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num= "Built target clear_tester"
 .PHONY : navigation/clear_costmap_recovery/CMakeFiles/clear_tester.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/clear_costmap_recovery/CMakeFiles/clear_tester.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/clear_costmap_recovery/CMakeFiles/clear_tester.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/clear_costmap_recovery/CMakeFiles/clear_tester.dir/rule
@@ -10346,7 +10385,6 @@ navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all: nav
 navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -10368,6 +10406,7 @@ navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all: nav
 navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all: navigation/costmap_2d/CMakeFiles/layers.dir/all
 navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all
 navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
@@ -10388,7 +10427,7 @@ all: navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/clear_costmap_recovery/CMakeFiles/clear_costmap_recovery.dir/rule
@@ -10420,7 +10459,7 @@ navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery_ro
 
 # Build rule for subdir invocation for target.
 navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery_rostest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery_rostest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery_rostest.dir/rule
@@ -10484,7 +10523,7 @@ navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery_ro
 
 # Build rule for subdir invocation for target.
 navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery_rostest_test_clear_tests.launch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery_rostest_test_clear_tests.launch.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/clear_costmap_recovery/CMakeFiles/run_tests_clear_costmap_recovery_rostest_test_clear_tests.launch.dir/rule
@@ -10531,7 +10570,7 @@ navigation/dwa_local_planner/preinstall:
 navigation/dwa_local_planner/CMakeFiles/dwa_local_planner_gencfg.dir/all:
 	$(MAKE) -f navigation/dwa_local_planner/CMakeFiles/dwa_local_planner_gencfg.dir/build.make navigation/dwa_local_planner/CMakeFiles/dwa_local_planner_gencfg.dir/depend
 	$(MAKE) -f navigation/dwa_local_planner/CMakeFiles/dwa_local_planner_gencfg.dir/build.make navigation/dwa_local_planner/CMakeFiles/dwa_local_planner_gencfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num= "Built target dwa_local_planner_gencfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=37 "Built target dwa_local_planner_gencfg"
 .PHONY : navigation/dwa_local_planner/CMakeFiles/dwa_local_planner_gencfg.dir/all
 
 # Include target in all.
@@ -10541,7 +10580,7 @@ all: navigation/dwa_local_planner/CMakeFiles/dwa_local_planner_gencfg.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/dwa_local_planner/CMakeFiles/dwa_local_planner_gencfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/dwa_local_planner/CMakeFiles/dwa_local_planner_gencfg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/dwa_local_planner/CMakeFiles/dwa_local_planner_gencfg.dir/rule
@@ -10606,7 +10645,6 @@ navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: navigation_ms
 navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -10628,6 +10666,7 @@ navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: navigation/co
 navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: navigation/costmap_2d/CMakeFiles/layers.dir/all
 navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all
 navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
@@ -10647,7 +10686,7 @@ navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: navigation/ba
 navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all: navigation/dwa_local_planner/CMakeFiles/dwa_local_planner_gencfg.dir/all
 	$(MAKE) -f navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/build.make navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/depend
 	$(MAKE) -f navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/build.make navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=35,36 "Built target dwa_local_planner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=36 "Built target dwa_local_planner"
 .PHONY : navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all
 
 # Include target in all.
@@ -10657,7 +10696,7 @@ all: navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 42
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/rule
@@ -10740,7 +10779,6 @@ navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/all: navigatio
 navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -10762,6 +10800,7 @@ navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/all: navigatio
 navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/all: navigation/costmap_2d/CMakeFiles/layers.dir/all
 navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all
 navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
@@ -10782,7 +10821,7 @@ all: navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/rule
@@ -10858,7 +10897,7 @@ all: navigation/navfn/CMakeFiles/navfn_node.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/navfn/CMakeFiles/navfn_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/CMakeFiles/navfn_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/navfn/CMakeFiles/navfn_node.dir/rule
@@ -10923,7 +10962,6 @@ navigation/navfn/CMakeFiles/navfn.dir/all: navigation_msgs/map_msgs/CMakeFiles/s
 navigation/navfn/CMakeFiles/navfn.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation/navfn/CMakeFiles/navfn.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 navigation/navfn/CMakeFiles/navfn.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-navigation/navfn/CMakeFiles/navfn.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/navfn/CMakeFiles/navfn.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 navigation/navfn/CMakeFiles/navfn.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation/navfn/CMakeFiles/navfn.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -10945,6 +10983,7 @@ navigation/navfn/CMakeFiles/navfn.dir/all: navigation/costmap_2d/CMakeFiles/cost
 navigation/navfn/CMakeFiles/navfn.dir/all: navigation/costmap_2d/CMakeFiles/layers.dir/all
 navigation/navfn/CMakeFiles/navfn.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all
 navigation/navfn/CMakeFiles/navfn.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+navigation/navfn/CMakeFiles/navfn.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/navfn/CMakeFiles/navfn.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 navigation/navfn/CMakeFiles/navfn.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 navigation/navfn/CMakeFiles/navfn.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
@@ -10966,7 +11005,7 @@ all: navigation/navfn/CMakeFiles/navfn.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/navfn/CMakeFiles/navfn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/CMakeFiles/navfn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/navfn/CMakeFiles/navfn.dir/rule
@@ -11490,7 +11529,7 @@ navigation/navfn/test/CMakeFiles/run_tests_navfn.dir/all: navigation/navfn/test/
 
 # Build rule for subdir invocation for target.
 navigation/navfn/test/CMakeFiles/run_tests_navfn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/test/CMakeFiles/run_tests_navfn.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/navfn/test/CMakeFiles/run_tests_navfn.dir/rule
@@ -11521,12 +11560,12 @@ navigation/navfn/test/CMakeFiles/path_calc_test.dir/all: navigation/costmap_2d/C
 navigation/navfn/test/CMakeFiles/path_calc_test.dir/all: navigation/navfn/CMakeFiles/navfn.dir/all
 	$(MAKE) -f navigation/navfn/test/CMakeFiles/path_calc_test.dir/build.make navigation/navfn/test/CMakeFiles/path_calc_test.dir/depend
 	$(MAKE) -f navigation/navfn/test/CMakeFiles/path_calc_test.dir/build.make navigation/navfn/test/CMakeFiles/path_calc_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=92,93 "Built target path_calc_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=93 "Built target path_calc_test"
 .PHONY : navigation/navfn/test/CMakeFiles/path_calc_test.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/navfn/test/CMakeFiles/path_calc_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/test/CMakeFiles/path_calc_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/navfn/test/CMakeFiles/path_calc_test.dir/rule
@@ -11590,7 +11629,7 @@ navigation/navfn/test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/all: n
 
 # Build rule for subdir invocation for target.
 navigation/navfn/test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/navfn/test/CMakeFiles/run_tests_navfn_gtest_path_calc_test.dir/rule
@@ -11688,7 +11727,7 @@ navigation/navfn/test/CMakeFiles/run_tests_navfn_gtest.dir/all: navigation/navfn
 
 # Build rule for subdir invocation for target.
 navigation/navfn/test/CMakeFiles/run_tests_navfn_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/navfn/test/CMakeFiles/run_tests_navfn_gtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/navfn/test/CMakeFiles/run_tests_navfn_gtest.dir/rule
@@ -11812,7 +11851,6 @@ navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation_msgs/map
 navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -11834,6 +11872,7 @@ navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation/costmap_
 navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation/costmap_2d/CMakeFiles/layers.dir/all
 navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all
 navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
@@ -11851,7 +11890,7 @@ navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation/navfn/CM
 navigation/global_planner/CMakeFiles/global_planner.dir/all: navigation/global_planner/CMakeFiles/global_planner_gencfg.dir/all
 	$(MAKE) -f navigation/global_planner/CMakeFiles/global_planner.dir/build.make navigation/global_planner/CMakeFiles/global_planner.dir/depend
 	$(MAKE) -f navigation/global_planner/CMakeFiles/global_planner.dir/build.make navigation/global_planner/CMakeFiles/global_planner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=38,39,40 "Built target global_planner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=39,40,41 "Built target global_planner"
 .PHONY : navigation/global_planner/CMakeFiles/global_planner.dir/all
 
 # Include target in all.
@@ -11861,7 +11900,7 @@ all: navigation/global_planner/CMakeFiles/global_planner.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/global_planner/CMakeFiles/global_planner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 37
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/global_planner/CMakeFiles/global_planner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/global_planner/CMakeFiles/global_planner.dir/rule
@@ -11926,7 +11965,6 @@ navigation/global_planner/CMakeFiles/planner.dir/all: navigation_msgs/map_msgs/C
 navigation/global_planner/CMakeFiles/planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation/global_planner/CMakeFiles/planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 navigation/global_planner/CMakeFiles/planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-navigation/global_planner/CMakeFiles/planner.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/global_planner/CMakeFiles/planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 navigation/global_planner/CMakeFiles/planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation/global_planner/CMakeFiles/planner.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -11948,6 +11986,7 @@ navigation/global_planner/CMakeFiles/planner.dir/all: navigation/costmap_2d/CMak
 navigation/global_planner/CMakeFiles/planner.dir/all: navigation/costmap_2d/CMakeFiles/layers.dir/all
 navigation/global_planner/CMakeFiles/planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all
 navigation/global_planner/CMakeFiles/planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+navigation/global_planner/CMakeFiles/planner.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/global_planner/CMakeFiles/planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 navigation/global_planner/CMakeFiles/planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 navigation/global_planner/CMakeFiles/planner.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
@@ -11976,7 +12015,7 @@ all: navigation/global_planner/CMakeFiles/planner.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/global_planner/CMakeFiles/planner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 37
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/global_planner/CMakeFiles/planner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/global_planner/CMakeFiles/planner.dir/rule
@@ -12059,7 +12098,6 @@ navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all: navigation_msgs/m
 navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -12081,6 +12119,7 @@ navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all: navigation/costma
 navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all: navigation/costmap_2d/CMakeFiles/layers.dir/all
 navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all
 navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
@@ -12109,7 +12148,7 @@ all: navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/rotate_recovery/CMakeFiles/rotate_recovery.dir/rule
@@ -12238,7 +12277,6 @@ navigation/move_base/CMakeFiles/move_base.dir/all: navigation_msgs/map_msgs/CMak
 navigation/move_base/CMakeFiles/move_base.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation/move_base/CMakeFiles/move_base.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 navigation/move_base/CMakeFiles/move_base.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-navigation/move_base/CMakeFiles/move_base.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/move_base/CMakeFiles/move_base.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 navigation/move_base/CMakeFiles/move_base.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation/move_base/CMakeFiles/move_base.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -12265,6 +12303,7 @@ navigation/move_base/CMakeFiles/move_base.dir/all: navigation/costmap_2d/CMakeFi
 navigation/move_base/CMakeFiles/move_base.dir/all: navigation/costmap_2d/CMakeFiles/layers.dir/all
 navigation/move_base/CMakeFiles/move_base.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all
 navigation/move_base/CMakeFiles/move_base.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+navigation/move_base/CMakeFiles/move_base.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/move_base/CMakeFiles/move_base.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 navigation/move_base/CMakeFiles/move_base.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 navigation/move_base/CMakeFiles/move_base.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
@@ -12292,7 +12331,7 @@ navigation/move_base/CMakeFiles/move_base.dir/all: navigation/rotate_recovery/CM
 navigation/move_base/CMakeFiles/move_base.dir/all: navigation/move_base/CMakeFiles/move_base_gencfg.dir/all
 	$(MAKE) -f navigation/move_base/CMakeFiles/move_base.dir/build.make navigation/move_base/CMakeFiles/move_base.dir/depend
 	$(MAKE) -f navigation/move_base/CMakeFiles/move_base.dir/build.make navigation/move_base/CMakeFiles/move_base.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=70 "Built target move_base"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=71 "Built target move_base"
 .PHONY : navigation/move_base/CMakeFiles/move_base.dir/all
 
 # Include target in all.
@@ -12302,7 +12341,7 @@ all: navigation/move_base/CMakeFiles/move_base.dir/all
 
 # Build rule for subdir invocation for target.
 navigation/move_base/CMakeFiles/move_base.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 60
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 61
 	$(MAKE) -f CMakeFiles/Makefile2 navigation/move_base/CMakeFiles/move_base.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles 0
 .PHONY : navigation/move_base/CMakeFiles/move_base.dir/rule
@@ -12372,7 +12411,6 @@ navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation_msgs/map_msgs
 navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_eus.dir/all
 navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation_msgs/map_msgs/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
@@ -12399,6 +12437,7 @@ navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation/costmap_2d/CM
 navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation/costmap_2d/CMakeFiles/layers.dir/all
 navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_gencfg.dir/all
 navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_nodejs.dir/all
+navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation/costmap_2d/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_py.dir/all
 navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_cpp.dir/all
 navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation/costmap_2d/CMakeFiles/costmap_2d_generate_messages_eus.dir/all
@@ -12427,7 +12466,7 @@ navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation/move_base/CMa
 navigation/move_base/CMakeFiles/move_base_node.dir/all: navigation/move_base/CMakeFiles/move_base.dir/all
 	$(MAKE) -f navigation/move_base/CMakeFiles/move_base_node.dir/build.make navigation/move_base/CMakeFiles/move_base_node.dir/depend
 	$(MAKE) -f navigation/move_base/CMakeFiles/move_base_node.dir/build.make navigation/move_base/CMakeFiles/move_base_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num=84 "Built target move_base_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/CMakeFiles --progress-num= "Built target move_base_node"
 .PHONY : navigation/move_base/CMakeFiles/move_base_node.dir/all
 
 # Include target in all.

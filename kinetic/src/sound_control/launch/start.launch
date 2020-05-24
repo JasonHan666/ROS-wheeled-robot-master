@@ -1,4 +1,4 @@
 <launch>
     <node pkg="sound_control" name="wakeup_publisher" type="wakeUp" />
-    <node pkg="sound_control" name="command_publisher" type="command_publisher" />
+    <node pkg="sound_control" name="command_publisher_test" type="command_publisher_test" />
 </launch>

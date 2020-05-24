@@ -7,10 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build"
-export PYTHONPATH="/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/src:$ROS_PACKAGE_PATH"

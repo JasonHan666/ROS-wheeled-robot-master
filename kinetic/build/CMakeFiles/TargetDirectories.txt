@@ -157,10 +157,11 @@
 /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/sound_control/CMakeFiles/edit_cache.dir
 /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/sound_control/CMakeFiles/test.dir
 /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/sound_control/CMakeFiles/command_publisher.dir
-/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/sound_control/CMakeFiles/rebuild_cache.dir
-/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/sound_control/CMakeFiles/wakeUp.dir
 /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/sound_control/CMakeFiles/install/local.dir
 /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/sound_control/CMakeFiles/install/strip.dir
+/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/sound_control/CMakeFiles/rebuild_cache.dir
+/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/sound_control/CMakeFiles/command_publisher_test.dir
+/home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/sound_control/CMakeFiles/wakeUp.dir
 /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/navigation/amcl/CMakeFiles/rebuild_cache.dir
 /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/navigation/amcl/CMakeFiles/edit_cache.dir
 /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build/navigation/amcl/CMakeFiles/install/local.dir

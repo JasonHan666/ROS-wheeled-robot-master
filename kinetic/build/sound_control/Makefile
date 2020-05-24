@@ -100,17 +100,6 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -132,6 +121,17 @@ install/strip: preinstall
 install/strip/fast: install/strip
 
 .PHONY : install/strip/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -181,6 +181,21 @@ command_publisher/fast:
 .PHONY : command_publisher/fast
 
 # Convenience name for target.
+sound_control/CMakeFiles/command_publisher_test.dir/rule:
+	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f CMakeFiles/Makefile2 sound_control/CMakeFiles/command_publisher_test.dir/rule
+.PHONY : sound_control/CMakeFiles/command_publisher_test.dir/rule
+
+# Convenience name for target.
+command_publisher_test: sound_control/CMakeFiles/command_publisher_test.dir/rule
+
+.PHONY : command_publisher_test
+
+# fast build rule for target.
+command_publisher_test/fast:
+	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher_test.dir/build.make sound_control/CMakeFiles/command_publisher_test.dir/build
+.PHONY : command_publisher_test/fast
+
+# Convenience name for target.
 sound_control/CMakeFiles/wakeUp.dir/rule:
 	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f CMakeFiles/Makefile2 sound_control/CMakeFiles/wakeUp.dir/rule
 .PHONY : sound_control/CMakeFiles/wakeUp.dir/rule
@@ -222,6 +237,33 @@ src/command_publisher.cpp.s:
 	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/src/command_publisher.cpp.s
 .PHONY : src/command_publisher.cpp.s
 
+src/command_publisher_test.o: src/command_publisher_test.cpp.o
+
+.PHONY : src/command_publisher_test.o
+
+# target to build an object file
+src/command_publisher_test.cpp.o:
+	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher_test.dir/build.make sound_control/CMakeFiles/command_publisher_test.dir/src/command_publisher_test.cpp.o
+.PHONY : src/command_publisher_test.cpp.o
+
+src/command_publisher_test.i: src/command_publisher_test.cpp.i
+
+.PHONY : src/command_publisher_test.i
+
+# target to preprocess a source file
+src/command_publisher_test.cpp.i:
+	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher_test.dir/build.make sound_control/CMakeFiles/command_publisher_test.dir/src/command_publisher_test.cpp.i
+.PHONY : src/command_publisher_test.cpp.i
+
+src/command_publisher_test.s: src/command_publisher_test.cpp.s
+
+.PHONY : src/command_publisher_test.s
+
+# target to generate assembly for a file
+src/command_publisher_test.cpp.s:
+	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher_test.dir/build.make sound_control/CMakeFiles/command_publisher_test.dir/src/command_publisher_test.cpp.s
+.PHONY : src/command_publisher_test.cpp.s
+
 src/linuxrec.o: src/linuxrec.c.o
 
 .PHONY : src/linuxrec.o
@@ -229,6 +271,7 @@ src/linuxrec.o: src/linuxrec.c.o
 # target to build an object file
 src/linuxrec.c.o:
 	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/src/linuxrec.c.o
+	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher_test.dir/build.make sound_control/CMakeFiles/command_publisher_test.dir/src/linuxrec.c.o
 .PHONY : src/linuxrec.c.o
 
 src/linuxrec.i: src/linuxrec.c.i
@@ -238,6 +281,7 @@ src/linuxrec.i: src/linuxrec.c.i
 # target to preprocess a source file
 src/linuxrec.c.i:
 	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/src/linuxrec.c.i
+	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher_test.dir/build.make sound_control/CMakeFiles/command_publisher_test.dir/src/linuxrec.c.i
 .PHONY : src/linuxrec.c.i
 
 src/linuxrec.s: src/linuxrec.c.s
@@ -247,6 +291,7 @@ src/linuxrec.s: src/linuxrec.c.s
 # target to generate assembly for a file
 src/linuxrec.c.s:
 	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/src/linuxrec.c.s
+	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher_test.dir/build.make sound_control/CMakeFiles/command_publisher_test.dir/src/linuxrec.c.s
 .PHONY : src/linuxrec.c.s
 
 src/speech_recognizer.o: src/speech_recognizer.c.o
@@ -256,6 +301,7 @@ src/speech_recognizer.o: src/speech_recognizer.c.o
 # target to build an object file
 src/speech_recognizer.c.o:
 	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/src/speech_recognizer.c.o
+	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher_test.dir/build.make sound_control/CMakeFiles/command_publisher_test.dir/src/speech_recognizer.c.o
 .PHONY : src/speech_recognizer.c.o
 
 src/speech_recognizer.i: src/speech_recognizer.c.i
@@ -265,6 +311,7 @@ src/speech_recognizer.i: src/speech_recognizer.c.i
 # target to preprocess a source file
 src/speech_recognizer.c.i:
 	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/src/speech_recognizer.c.i
+	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher_test.dir/build.make sound_control/CMakeFiles/command_publisher_test.dir/src/speech_recognizer.c.i
 .PHONY : src/speech_recognizer.c.i
 
 src/speech_recognizer.s: src/speech_recognizer.c.s
@@ -274,6 +321,7 @@ src/speech_recognizer.s: src/speech_recognizer.c.s
 # target to generate assembly for a file
 src/speech_recognizer.c.s:
 	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher.dir/build.make sound_control/CMakeFiles/command_publisher.dir/src/speech_recognizer.c.s
+	cd /home/seedfull/ros_project/ROS-wheeled-robot-master/kinetic/build && $(MAKE) -f sound_control/CMakeFiles/command_publisher_test.dir/build.make sound_control/CMakeFiles/command_publisher_test.dir/src/speech_recognizer.c.s
 .PHONY : src/speech_recognizer.c.s
 
 src/wakeUp.o: src/wakeUp.cpp.o
@@ -314,13 +362,17 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... command_publisher"
-	@echo "... rebuild_cache"
-	@echo "... wakeUp"
 	@echo "... install/local"
 	@echo "... install/strip"
+	@echo "... rebuild_cache"
+	@echo "... command_publisher_test"
+	@echo "... wakeUp"
 	@echo "... src/command_publisher.o"
 	@echo "... src/command_publisher.i"
 	@echo "... src/command_publisher.s"
+	@echo "... src/command_publisher_test.o"
+	@echo "... src/command_publisher_test.i"
+	@echo "... src/command_publisher_test.s"
 	@echo "... src/linuxrec.o"
 	@echo "... src/linuxrec.i"
 	@echo "... src/linuxrec.s"

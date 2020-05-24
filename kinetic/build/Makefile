@@ -1544,6 +1544,19 @@ command_publisher/fast:
 .PHONY : command_publisher/fast
 
 #=============================================================================
+# Target rules for targets named command_publisher_test
+
+# Build rule for target.
+command_publisher_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 command_publisher_test
+.PHONY : command_publisher_test
+
+# fast build rule for target.
+command_publisher_test/fast:
+	$(MAKE) -f sound_control/CMakeFiles/command_publisher_test.dir/build.make sound_control/CMakeFiles/command_publisher_test.dir/build
+.PHONY : command_publisher_test/fast
+
+#=============================================================================
 # Target rules for targets named wakeUp
 
 # Build rule for target.
@@ -4197,6 +4210,7 @@ help:
 	@echo "... map_msgs_geneus"
 	@echo "... map_msgs_generate_messages_lisp"
 	@echo "... command_publisher"
+	@echo "... command_publisher_test"
 	@echo "... wakeUp"
 	@echo "... run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml"
 	@echo "... _run_tests_amcl_rostest_test_rosie_multilaser.xml"

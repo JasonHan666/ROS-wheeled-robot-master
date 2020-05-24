@@ -548,6 +548,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "navigation_msgs/map_msgs/CMakeFiles/map_msgs_geneus.dir/DependInfo.cmake"
   "navigation_msgs/map_msgs/CMakeFiles/map_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "sound_control/CMakeFiles/command_publisher.dir/DependInfo.cmake"
+  "sound_control/CMakeFiles/command_publisher_test.dir/DependInfo.cmake"
   "sound_control/CMakeFiles/wakeUp.dir/DependInfo.cmake"
   "navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/DependInfo.cmake"
   "navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_rosie_multilaser.xml.dir/DependInfo.cmake"

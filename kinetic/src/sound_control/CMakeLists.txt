@@ -24,6 +24,19 @@ target_link_libraries(command_publisher
                       ${catkin_LIBRARIES}
                       libmsc.so -ldl -lpthread -lm -lrt -lasound)
 
+add_executable(command_publisher_test
+               src/command_publisher_test.cpp
+               src/speech_recognizer.c
+               src/linuxrec.c)
+
+target_link_libraries(command_publisher_test
+                      ${catkin_LIBRARIES}
+                      libmsc.so -ldl -lpthread -lm -lrt -lasound)
+
+
 
 add_executable(wakeUp src/wakeUp.cpp)
 target_link_libraries(wakeUp ${catkin_LIBRARIES})
+
+# add_executable(command_publisher src/command_publisher.cpp)
+# target_link_libraries(command_publisher ${catkin_LIBRARIES})
