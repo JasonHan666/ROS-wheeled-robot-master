@@ -56,9 +56,11 @@ The command:
 	roslaunch four_wheel_urdf my_navigation_gazebo_two_wheel.launch
 open both Rviz and Gazebo. The tf from baselink to odom will be given by gazebo, not calculated from odometer.
 
-## Voice control (In progress, Sun Yinghan)
+## Voice control (Finished)
 
-Capable to recognize 前进 后退 左转 右转, etc. But only available for a single trial for in each terminal. Not combined with the robot controller.
+Capable to recognize 前进\向前 后退\向后 左转\向左 右转\向右 停止\停. The publisher of the sound control node publishes message of 'geometry/Twist' directly to topic '/four_wheel_diff_controller/cmd_vel'. 
+	roslaunch four_wheel_urdf four_wheel_diffdrive.launch
+	roslaunch sound_control start.launch
  
 ---
 
