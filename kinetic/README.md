@@ -60,7 +60,7 @@ open both Rviz and Gazebo. The tf from baselink to odom will be given by gazebo,
 
 Capable to recognize 前进\向前 后退\向后 左转\向左 右转\向右 停止\停. The publisher of the sound control node publishes message of `geometry/Twist` directly to the topic `/four_wheel_diff_controller/cmd_vel`. 
 
-	roslaunch four_wheel_urdf four_wheel diffdrive.launch
+	roslaunch four_wheel_urdf four_wheel_diffdrive.launch
 	roslaunch sound_control start.launch
  
 ---
@@ -86,6 +86,8 @@ Capable to recognize 前进\向前 后退\向后 左转\向左 右转\向右 停
 `my_navigation_rviz.launch` calls navigation nodes to work with Rviz with no physics.
 
 `display.launch` `gazebo.launch.bak` created by solidworks Exporter to urdf. No use now.
+
+`start.launch` to start the two voice control nodes. In pair with four_wheel_diffdrive.launch
 
 ### config
 `base_local_planner_params.yaml` `costmap_common_params.yaml` `global_costmap_params.yaml` `local_costmap_params.yaml` are parameters for navigation toolbox.
