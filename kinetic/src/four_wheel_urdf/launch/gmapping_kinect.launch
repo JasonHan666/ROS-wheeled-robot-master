@@ -8,7 +8,7 @@
 <arg name="scan_topic" default="scan_kinect" />
 <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output= "screen">
 <param name="odom_frame" value="odom"/>
-<param name="map_update_interval" value="0.5"/>
+<param name="map_update_interval" value="0.1"/>
 <!-- Set maxUrange < actual maximum range of the kinect by yu519-->
 <param name="maxRange" value="30"/>
 <param name="maxUrange" value="6"/>
@@ -28,7 +28,7 @@
 <param name="angularUpdate" value="0.436"/>
 <param name="temporalUpdate" value="-1.0"/>
 <param name="resampleThreshold" value="0.5"/>
-<param name="particles" value="80"/>
+<param name="particles" value="40"/>
 <param name="xmin" value="-1.0"/>
 <param name="ymin" value="-1.0"/>
 <param name="xmax" value="1.0"/>
