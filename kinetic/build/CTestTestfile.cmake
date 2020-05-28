@@ -7,6 +7,7 @@
 subdirs(gtest)
 subdirs(navigation/navigation)
 subdirs(navigation_msgs/move_base_msgs)
+subdirs(teleop_twist_keyboard)
 subdirs(navigation/map_server)
 subdirs(navigation_msgs/map_msgs)
 subdirs(sound_control)

@@ -9,7 +9,11 @@ This is a built-in controller of which the source code is not found.
 To use it with out model, simply type:
 
 	roslaunch four_wheel_urdf four_wheel_diffdrive.launch
+	
 This command will load the model and open both Rviz and Gazebo. Though Gazebo has its built-in diffdrive controller, it is designed for two-wheel turtle robot and only used in navigation.
+
+## How to move the robot around using keyboard (Finished)
+	rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ## How to create 2D map (Finished)
 Here we use the diffdrive.launch for simplicity.
 	
