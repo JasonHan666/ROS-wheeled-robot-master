@@ -8,5 +8,7 @@
   </include>
 
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find four_wheel_urdf)/config/nav_config.rviz" />
-  
+   <node name="rqt_robot_steering" pkg="rqt_robot_steering" type="rqt_robot_steering">
+    <param name="default_topic" value="/cmd_vel"/>
+  </node>
 </launch>

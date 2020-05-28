@@ -433,11 +433,11 @@
     </inertial>
     <visual>
       <origin
-        xyz="0 0 0"
-        rpy="3.14159265 0 1.570796325" />
+        xyz="0 0 0.0218"
+        rpy="0 0 1.570796325" />
       <geometry>
         <mesh
-          filename="package://four_wheel_urdf/meshes/kinect_link.STL" />
+          filename="package://four_wheel_urdf/meshes/kinect.dae" />
       </geometry>
       <material
         name="">
@@ -565,6 +565,9 @@
     </collision>
     -->
   </link>
+  <gazebo reference="raspberry_link">
+      <material>Gazebo/Grey</material>
+  </gazebo>
   <joint
     name="raspberry_joint"
     type="fixed">
@@ -620,6 +623,9 @@
     </collision>
     -->
   </link>
+  <gazebo reference="driver_link">
+      <material>Gazebo/Grey</material>
+  </gazebo>
   <joint
     name="driver_joint"
     type="fixed">
